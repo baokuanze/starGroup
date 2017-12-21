@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TaskIconSkin" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="120" height="33">
+	<e:Image id="bmp1" source="t_icon1" x="0" y="0"/>
+	<e:Image id="bmp2" source="t_fst8" x="87" y="9"/>
+</e:Skin>

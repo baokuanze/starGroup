@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HeadLineItemInforSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect right="0" bottom="0" left="0" top="0" fillColor="0xFFFFFF" x="10" y="10"/>
+	<e:Scroller x="0" y="0" width="750" height="1229" id="scro1">
+		<e:Group id="group_data" height="1333">
+			<e:Group id="group_lableGroup" x="26" width="698" y="39" touchEnabled="false">
+				<e:Label id="lable_whoWorks" y="0" textColor="0x000000" fontFamily="黑体" size="36" horizontalCenter="0" visible="false"/>
+				<e:Label id="lable_titleInfo" maxWidth="698" y="106" textColor="0x000000" fontFamily="黑体" width="698" lineSpacing="20" size="50" x="0"/>
+			</e:Group>
+			<e:Group id="group_imgAndTitle" y="143" width="698" x="26" touchEnabled="false">
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="center"/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="group_threeRank" width="698" x="26" y="143">
+				<e:Label id="lable_threeRank" y="0" textColor="0x000000" fontFamily="黑体" size="32" touchEnabled="false" horizontalCenter="0" text="粉丝投票前三名"/>
+				<e:Group id="group_threePic" width="698" x="0" y="60" touchEnabled="false">
+					<e:layout>
+						<e:HorizontalLayout paddingLeft="75.5" gap="75.5"/>
+					</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout paddingLeft="26" paddingTop="45" gap="50"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Image y="30" id="img_btnComeToItem" width="63" height="63" x="30" source="hl_back"/>
+	<e:Group y="1228" x="0" width="750" height="105" id="group_buttom" touchEnabled="false">
+		<e:Rect id="rect_btnAddTask" y="0" x="0" width="750" height="105" fillColor="0xFFFFFF" touchEnabled="false"/>
+		<e:Rect width="750" y="0" height="2" fillColor="0xEBEBEB" x="0"/>
+		<e:Label touchEnabled="false" textColor="0xB4B4B4" fontFamily="黑体" size="26" id="lable_count" verticalCenter="0.5" right="208"/>
+		<e:Rect id="btn_ding" height="69" width="173" x="572" y="23" fillColor="0xFFFFFF"/>
+		<e:Image id="img_ding" source="hl_ding" touchEnabled="false" x="599" verticalCenter="0"/>
+		<e:Image id="img_typeIcon" width="40" height="38" x="36" verticalCenter="0"/>
+		<e:Label textColor="0xB4B4B4" fontFamily="黑体" id="lable_type" size="26" x="93" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

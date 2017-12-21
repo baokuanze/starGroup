@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StarPageItemSkin" width="225" height="370" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect" left="0" right="0" top="0" bottom="0" touchEnabled="false" cacheAsBitmap="true" fillColor="0xF4F4F4"/>
+	<e:Label id="lblName" text="范冰冰" y="206" horizontalCenter="0.5" fontFamily="黑体" size="30" textColor="0x14B8F6" touchEnabled="false" cacheAsBitmap="true"/>
+	<e:Label id="lblNum" text="305个群已入驻" y="254" size="24" horizontalCenter="0.5" fontFamily="黑体" textColor="0x95B9C6" touchEnabled="false" cacheAsBitmap="true"/>
+	<e:Rect id="btnInit" height="43" width="115" y="301" horizontalCenter="0" ellipseHeight="20" ellipseWidth="20" fillColor="0x14B8F6" touchEnabled="false"/>
+	<e:Label id="lblrz" text="入驻" y="310" size="26" horizontalCenter="0.5" fontFamily="黑体" touchEnabled="false" cacheAsBitmap="true"/>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="fansRecruitItemSkin" width="750" height="209" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="container" left="0" right="0" top="0" bottom="0" touchEnabled="true">
+		<e:Group id="groupData" height="31" width="562" x="186" y="29">
+			<e:Label id="namet" text="赵丽颖粉丝群赵丽颖粉丝" x="186" y="29" size="32" fontFamily="黑体" textColor="0x000000"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="pnum" text="232人" y="32" right="14" textColor="0xBEBEBE"/>
+		<e:Image x="186" y="85" source="weizhi"/>
+		<e:Label id="position" text="我的家在东北" x="222" y="82" fontFamily="黑体" size="30" textColor="0x8E56C5"/>
+		<e:Scroller width="564" height="74" x="134" y="126">
+			<e:Group>
+				<e:Label id="gonggao" text="群公告:防腐剂的身份反馈就是打开了房间流口水的减肥开始了" fontFamily="黑体" wordWrap="true" maxWidth="492" lineSpacing="7" maxChars="2" x="50" width="494" height="68" textColor="0xBEBEBE"/>
+			</e:Group>
+		</e:Scroller>
+		<e:Image id="bmpIcon" height="135" width="135" x="20" y="23"/>
+		<e:Image id="btnJoin" source="p1_join" x="48" y="164"/>
+	</e:Group>
+	<e:Rect left="0" right="0" height="1" x="30" fillColor="0xF0E4FC"/>
+</e:Skin>

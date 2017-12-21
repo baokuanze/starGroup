@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankStarUISkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF" cacheAsBitmap="true"/>
+	<e:Label id="txt1" text="本月明星热度榜" y="29" fontFamily="黑体" horizontalCenter="0" size="34" textColor="0x000000" visible="false"/>
+	<e:Scroller id="scroll1" width="750" height="1167" x="0" y="0">
+		<e:Group id="group_all" height="1333">
+			<e:Group id="group_hostStarInfo" height="399" width="750" x="0" y="41">
+				<e:Image id="img_starIcon" height="190" width="190" y="0" horizontalCenter="0"/>
+				<e:Image id="img_bg" source="sr_bigYuan" y="0" horizontalCenter="0"/>
+				<e:Image id="btn_pic" source="sr_pic" x="514" y="43" visible="false"/>
+				<e:Image id="btn_buLuo" source="sr_buLuo" x="134" y="43" visible="false"/>
+				<e:Label id="lable_Name" size="38" textColor="0x3D3D3D" y="290" horizontalCenter="0"/>
+				<e:Group y="345" width="188" horizontalCenter="0" height="31">
+					<e:Image source="sr_heat" x="8" y="7" width="21" height="23"/>
+					<e:Label id="lable_hotNumber" y="0" fontFamily="黑体" size="26" textColor="0x666666" x="31"/>
+					<e:layout>
+						<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+				<e:Group width="188" y="217" horizontalCenter="0">
+					<e:layout>
+						<e:HorizontalLayout verticalAlign="middle" horizontalAlign="center" gap="0"/>
+					</e:layout>
+					<e:Label id="lable_No" y="10" text="NO." fontFamily="黑体" x="41" size="24" textColor="0x8D56C4" verticalAlign="bottom" height="30" touchEnabled="false"/>
+					<e:Label id="lable_RankNum" y="0" fontFamily="黑体" size="36" x="31" textColor="0x8D56C4" touchEnabled="false"/>
+				</e:Group>
+				<e:Group width="206" y="221" height="41" horizontalCenter="0" visible="false">
+					<e:layout>
+						<e:HorizontalLayout verticalAlign="middle" horizontalAlign="center" gap="6"/>
+					</e:layout>
+					<e:Label id="lable_No11" y="215" textColor="0x8D56C4" size="24" horizontalCenter="-30" fontFamily="黑体" width="42" height="36" text="NO." x="10" textAlign="center" verticalAlign="bottom"/>
+					<e:Label id="lable_RankNum1" size="36" textColor="0x8D56C4" fontFamily="黑体" width="22" height="43" y="205" horizontalCenter="18" text="1" verticalAlign="bottom" textAlign="center"/>
+				</e:Group>
+			</e:Group>
+			<e:Scroller id="scroll2" width="690" x="30" y="471">
+				<e:Group id="group_ZC" width="750">
+					<e:layout>
+						<e:HorizontalLayout/>
+					</e:layout>
+				</e:Group>
+			</e:Scroller>
+			<e:Rect touchEnabled="false" horizontalCenter="0" y="614" cacheAsBitmap="true" width="690" fillColor="0xE6E6E6" height="1" x="20"/>
+			<e:Group id="groupData" width="750" y="615" x="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="btnClose" x="20" y="20" source="p_btnback1"/>
+	<e:Group id="groupButtom" height="80" width="750" x="0" y="1258" visible="false">
+		<e:Rect height="1" y="0" fillColor="0xFFFFFF" fillAlpha="0.5" width="750" x="0"/>
+		<e:Label text="排行根据每月粉丝送礼价值决定" y="26" size="30" fontFamily="黑体" textColor="0x9E9D9D" x="165"/>
+	</e:Group>
+	<e:Image id="btn_Fx" source="p_fx" x="667" y="34"/>
+</e:Skin>

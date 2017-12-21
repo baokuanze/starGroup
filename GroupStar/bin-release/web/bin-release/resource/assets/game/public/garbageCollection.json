@@ -1,0 +1,8 @@
+{"file":"garbageCollection.png","frames":{
+"gc_movie":{"x":153,"y":267,"w":99,"h":99,"offX":0,"offY":0,"sourceW":99,"sourceH":99},
+"gc_tv":{"x":391,"y":0,"w":99,"h":99,"offX":0,"offY":0,"sourceW":99,"sourceH":99},
+"gc_music":{"x":0,"y":269,"w":99,"h":99,"offX":0,"offY":0,"sourceW":99,"sourceH":99},
+"gc_BigMovie":{"x":0,"y":144,"w":151,"h":123,"offX":0,"offY":0,"sourceW":151,"sourceH":123},
+"gc_BigMusic":{"x":153,"y":144,"w":148,"h":121,"offX":0,"offY":0,"sourceW":148,"sourceH":121},
+"gc_BigTv":{"x":303,"y":144,"w":124,"h":127,"offX":0,"offY":0,"sourceW":124,"sourceH":127},
+"gc_BigBg":{"x":0,"y":0,"w":389,"h":142,"offX":0,"offY":0,"sourceW":389,"sourceH":142}}}

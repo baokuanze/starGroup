@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankStarItemSkin" width="750" height="180" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect height="180" width="750" x="0" y="0" fillColor="0xFFFFFF"/>
+	<e:Image id="img_icon3" width="64" height="64" x="648" verticalCenter="1"/>
+	<e:Image id="img_icon2" width="64" height="64" x="566" verticalCenter="1"/>
+	<e:Image id="img_icon1" height="64" width="64" x="485" verticalCenter="1"/>
+	<e:Image id="img_head" height="120" width="120" x="92" verticalCenter="0"/>
+	<e:Image id="img_3" source="sr_yuan" x="648" y="59"/>
+	<e:Image id="img_2" source="sr_yuan" x="566" y="59"/>
+	<e:Image id="img_1" source="sr_yuan" x="485" y="59"/>
+	<e:Image source="sr_smallYuan" x="92" verticalCenter="0"/>
+	<e:Rect height="1" bottom="0" width="690" touchEnabled="false" cacheAsBitmap="true" x="30" fillColor="0xE6E6E6"/>
+	<e:Rect id="btnHead" height="120" width="120" x="92" fillAlpha="0" y="30"/>
+	<e:Rect id="btnicon1" height="67" width="67" x="484" fillAlpha="0" verticalCenter="2.5"/>
+	<e:Rect id="btnicon2" width="67" height="67" x="565" fillAlpha="0" verticalCenter="2.5"/>
+	<e:Rect id="btnicon3" width="67" height="67" x="647" fillAlpha="0" verticalCenter="2.5"/>
+	<e:Label id="lable_rankNumber" size="36" textColor="0x333333" fontFamily="黑体" y="72" horizontalCenter="-326.5" touchEnabled="false"/>
+	<e:Label id="lblName" fontFamily="黑体" size="32" touchEnabled="false" cacheAsBitmap="true" textColor="0x333333" y="50" x="266"/>
+	<e:Label id="hot" y="104" fontFamily="黑体" size="26" touchEnabled="false" cacheAsBitmap="true" x="296" textAlign="left" verticalAlign="bottom" textColor="0x808080"/>
+	<e:Image source="sr_heat" x="266" y="105" width="20" height="23" touchEnabled="false"/>
+</e:Skin>

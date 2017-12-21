@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BuyTicketSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0xEEEFF0" width="750" height="1225" y="0" x="0"/>
+	<e:Image id="btn_buyTicket" x="0" y="0" source="poster"/>
+	<e:Rect height="62" width="190" x="535" y="130" strokeColor="0xFFFFFF" strokeWeight="2" ellipseWidth="10" ellipseHeight="10" fillColor="0xFD3C32" touchEnabled="false"/>
+	<e:Label id="lb_buy" text="查看详情" x="559" y="143" fontFamily="黑体" size="36" bold="true" touchEnabled="false"/>
+	<e:Scroller id="srco" width="750" x="0" y="226">
+		<e:Group id="groupData">
+			<e:Group id="groupFansGroup" height="360" width="750" x="0" y="0">
+				<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+				<e:Label id="lb_fans" text="超级粉丝团" y="35" fontFamily="黑体" x="115" textColor="0x6E6E6E" touchEnabled="false"/>
+				<e:Label id="lb_role1" y="152" fontFamily="黑体" x="115" size="30" textColor="0x2A2A2A" maxWidth="604" lineSpacing="10" touchEnabled="false" text="全民应援树新蜂，赢羽泉签名照!"/>
+				<e:Label id="lb_role2" y="212" fontFamily="黑体" x="115" size="30" textColor="0x2A2A2A" maxWidth="604" lineSpacing="10" touchEnabled="false" text="在应援墙发表应援内容，为树新蜂羽泉演唱会加油，即有机会获得钻石大礼包和羽泉签名照!" width="590"/>
+				<e:Label y="95" touchEnabled="false" fontFamily="黑体" x="115" maxWidth="604" lineSpacing="10" size="30" text="活动时间：11.18-11.28上午10点" id="lb_role0" textColor="0x14B8F6"/>
+				<e:Label y="294" textColor="0x2A2A2A" touchEnabled="false" fontFamily="黑体" id="lb_role3" maxWidth="604" lineSpacing="10" size="28" text="4.每位获奖用户有且只有一次中奖机会，共10位获奖者！" x="115" visible="false"/>
+				<e:Image y="25" touchEnabled="false" id="img_paiseIcon" width="76" height="76" x="25"/>
+				<e:Image source="p1_yuan" x="25" y="25" touchEnabled="false" id="img_button"/>
+				<e:Rect id="btnHelp" height="50" width="128" x="596" y="20" ellipseHeight="10" ellipseWidth="10" fillColor="0xFFFA00"/>
+				<e:Label id="lb12" y="35" textColor="0x2A2A2A" touchEnabled="false" fontFamily="黑体" x="617" lineSpacing="10" maxWidth="604" size="22" text="奖励规则" width="92" height="24"/>
+			</e:Group>
+			<e:Group id="group_changeButtom" height="95" width="750" x="0" y="380" touchEnabled="false">
+				<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+				<e:Rect id="rect_line" x="376" width="1" height="40" verticalCenter="0" fillColor="0xEEEFF0"/>
+				<e:Rect id="btn_newCommom" fillColor="0xFFFFFF" x="381" y="0" height="94" width="369"/>
+				<e:Rect id="btn_HotCommon" fillColor="0xFFFFFF" top="0" bottom="0" y="20" x="0" width="372"/>
+				<e:Label id="lb_newCommon" text="最新应援" x="467" y="33" textColor="0x989898" fontFamily="黑体" touchEnabled="false" size="30" verticalAlign="middle"/>
+				<e:Label id="lb_hotCommon" text="最热应援" x="127" y="33" fontFamily="黑体" textColor="0x989898" touchEnabled="false"/>
+				<e:Rect id="rect_line0" width="750" height="1" x="0" y="94" fillColor="0xEEEFF0"/>
+				<e:Label id="lb_number" y="33" fontFamily="黑体" touchEnabled="false" textColor="0x989898" textAlign="center" verticalAlign="middle" x="593"/>
+			</e:Group>
+			<e:Group id="group_commonData" width="750" x="0" y="475" touchEnabled="false">
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="group_commonHotData" y="475" touchEnabled="false" x="0" width="750">
+				<e:layout>
+					<e:VerticalLayout gap="0"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:BasicLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="group_pushTalk" height="116" width="750" x="0" y="1218" touchEnabled="false">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xF6F8FD"/>
+		<e:Rect height="66" width="564" x="25" y="27" ellipseHeight="15" ellipseWidth="15" strokeColor="0xEEEFF0" strokeWeight="2" fillColor="0xFFFFFF"/>
+		<e:Rect x="0" y="0" height="1" width="750" fillColor="0xF6F8FD"/>
+		<e:Image source="zb_2" x="15" verticalCenter="1" width="564" height="66" visible="false"/>
+		<e:EditableText fontFamily="黑体" x="40" width="540" maxChars="100" verticalAlign="middle" id="txtInput" y="37" maxWidth="540" height="48" text="发送应援" textColor="0xA4A4A4"/>
+		<e:Image x="613" id="btnTalk" verticalCenter="1" source="zb_3" width="108" height="64"/>
+	</e:Group>
+	<e:Image id="btn_close" source="poster_close" x="32" y="30"/>
+	<e:Group y="226" touchEnabled="false" id="group_changeButtom0" width="750" height="95" x="0" visible="false">
+		<e:Rect right="0" bottom="0" left="0" fillColor="0xFFFFFF" top="0"/>
+		<e:Rect fillColor="0xEEEFF0" width="1" x="376" verticalCenter="0" height="40" id="rect_line1"/>
+		<e:Rect fillColor="0xFFFFFF" y="0" x="381" width="369" height="94" id="btn_newCommom0"/>
+		<e:Rect fillColor="0xFFFFFF" y="20" top="0" x="0" bottom="0" width="372" id="btn_HotCommon0"/>
+		<e:Label y="33" textColor="0x989898" text="最新应援" fontFamily="黑体" id="lb_newCommon0" size="30" touchEnabled="false" verticalAlign="middle" x="467"/>
+		<e:Label y="33" textColor="0x989898" touchEnabled="false" fontFamily="黑体" id="lb_hotCommon0" text="最热应援" x="127"/>
+		<e:Rect fillColor="0xEEEFF0" y="94" id="rect_line2" width="750" height="1" x="0"/>
+		<e:Label y="33" textColor="0x989898" verticalAlign="middle" fontFamily="黑体" textAlign="center" touchEnabled="false" id="lb_number0" x="593"/>
+	</e:Group>
+	<e:Group id="groupHelp" height="676" width="542" x="73" y="93" visible="false">
+		<e:Rect fillAlpha="0.8" width="542" height="676" y="0" x="0"/>
+		<e:Label id="lb6" x="42" y="28" text="奖励设置：" fontFamily="黑体"/>
+		<e:Label id="lb9" x="42" y="347" text="注意事项：" fontFamily="黑体"/>
+		<e:Label id="lb10" y="407" text="1.应援内容不可发表涉及黄、暴、抄袭、侮辱等不和谐内容，如有发现立即删除。" fontFamily="黑体" x="42" width="458" height="111" lineSpacing="10"/>
+		<e:Label id="lb11" y="552" text="2.每位获奖用户有且只有一次中奖机会，共10位获奖者。" fontFamily="黑体" width="458" height="82" x="42" lineSpacing="10"/>
+		<e:Label id="lb7" y="85" text="1.发表应援奖励3钻，点赞3钻，以上奖励每日一次" fontFamily="黑体" x="42" width="458" height="71" lineSpacing="10"/>
+		<e:Label id="lb8" x="42" y="194" text="2.活动结束后，应援墙获赞数前10名粉丝将获得【羽泉签名照一张，100钻石】" fontFamily="黑体" height="114" width="458" lineSpacing="10"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="NewPublishSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="750" x="0" height="1334" y="0" fillAlpha="0.4" fillColor="0x000000"/>
+	<e:Group height="919" width="692" y="126" x="29">
+		<e:Image source="publication" y="0" x="0"/>
+		<e:Label id="lb1" text="新版本上线预告" y="31" horizontalCenter="0" fontFamily="黑体" size="46" textColor="0xFEF60E"/>
+		<e:Label id="lb3" text="2016.11.26" y="123" fontFamily="黑体" verticalAlign="middle" horizontalCenter="0" size="22" textColor="0x808080"/>
+		<e:Scroller id="scro" width="692" y="202" horizontalCenter="0" height="567">
+			<e:Group id="groupData"/>
+		</e:Scroller>
+		<e:Rect id="btn_close" height="75" width="388" y="806" fillColor="0x36A1FF" horizontalCenter="0" ellipseHeight="85" ellipseWidth="85"/>
+		<e:Label id="lb2" text="知道了" y="826" fontFamily="黑体" textAlign="center" verticalAlign="middle" x="301" touchEnabled="false"/>
+		<e:Image id="img_close" source="p_close" x="607" y="0"/>
+	</e:Group>
+</e:Skin>

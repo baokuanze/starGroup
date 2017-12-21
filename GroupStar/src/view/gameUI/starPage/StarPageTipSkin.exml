@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StarPageTipSkin" width="750" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+	<e:Label id="lbl0" y="10" textColor="0x14B8F6" text="没有喜欢的明星？试试搜索吧！" fontFamily="黑体" touchEnabled="false" size="28" horizontalCenter="0" x="10"/>
+	<e:Image source="n_cjmx1" y="67" touchEnabled="false" horizontalCenter="0"/>
+	<e:EditableText x="53" y="80" textColor="0xBCD5DF" text="请输入明星姓名或组合全称" fontFamily="黑体" verticalAlign="middle" width="565" height="51" id="lblStarName"/>
+	<e:Image id="btnSerach" source="n_cjmx6" x="635" y="65" touchEnabled="false"/>
+</e:Skin>

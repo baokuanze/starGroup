@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AggregationIconSkin" width="100" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_personIcon" height="100" width="100"/>
+	<e:Image id="img_person_up" x="0" y="0" touchEnabled="false" source="j_imgUp"/>
+	<e:Rect height="3" width="100" x="0" y="99" fillColor="0xFFFFFF"/>
+	<e:Rect x="0" width="100" y="-2" height="3" fillColor="0xFFFFFF"/>
+</e:Skin>

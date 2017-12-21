@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AggregationIcon1Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect height="1334" width="750" x="0" y="0" fillColor="0xFFFFFF"/>
+	<e:Image id="btn_comeBack" x="20" y="20" source="p_btnback1"/>
+	<e:Label id="lable_time" y="31" horizontalCenter="0" textColor="0x333333" fontFamily="黑体" size="48" visible="false"/>
+	<e:Label id="lable_personCount" y="113" horizontalCenter="1" size="30" textColor="0x12B7F5" visible="false"/>
+	<e:Label id="lable_contribute" y="168" horizontalCenter="-2" textColor="0x666666" fontFamily="黑体" size="26"/>
+	<e:Image id="img_startImg" height="702" width="436" y="254" horizontalCenter="0"/>
+	<e:Image id="btn_jHZ" y="1021" horizontalCenter="0" source="j_haozhao"/>
+	<e:Label id="lable_hZQY" text="召唤群友" y="1044" horizontalCenter="0" fontFamily="黑体" touchEnabled="false"/>
+	<e:Group id="group_icon" width="750" x="0" y="255" touchEnabled="false">
+		<e:Image id="img0" source="j_imgButton" x="17" y="0"/>
+		<e:Image id="img1" source="j_imgButton" y="0" x="630"/>
+		<e:Image y="150.5" x="16" id="img2" source="j_imgButton"/>
+		<e:Image source="j_imgButton" y="150.5" id="img3" x="630"/>
+		<e:Image source="j_imgButton" y="301" x="17" id="img4"/>
+		<e:Image source="j_imgButton" y="301" id="img5" x="630"/>
+		<e:Image source="j_imgButton" y="451.5" x="17" id="img6"/>
+		<e:Image source="j_imgButton" y="452" id="img7" x="630"/>
+		<e:Image source="j_imgButton" y="602" x="17" id="img8"/>
+		<e:Image source="j_imgButton" y="602" id="img9" x="630"/>
+	</e:Group>
+	<e:Group id="group_up" width="750" x="0" y="255" touchEnabled="false">
+	</e:Group>
+	<e:Rect id="btn_startJijie" height="74" width="280" y="40" horizontalCenter="0" strokeColor="0xFFFFFF" fillColor="0x12B7F5" ellipseHeight="15" ellipseWidth="15"/>
+	<e:Label id="lable_jijie" text="发起集结" y="59" horizontalCenter="0" fontFamily="黑体" touchEnabled="false"/>
+</e:Skin>

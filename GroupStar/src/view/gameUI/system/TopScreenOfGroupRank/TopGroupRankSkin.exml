@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TopGroupRankSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect height="1334" width="750" x="0" y="0" fillColor="0xF0F0F0"/>
+	<e:Scroller id="scro1" width="750" x="0" y="0">
+		<e:Group id="group_Data">
+			<e:Group id="group_top" width="750" x="0" y="0" height="489">
+				<e:Image id="img_focus" x="0" y="0"/>
+				<e:Label y="315" fontFamily="黑体" id="lable_workTitle0" size="32" x="31" textColor="0x000000"/>
+				<e:Label id="lable_workTitle" x="30" y="314" fontFamily="黑体" size="32" textColor="0xFFFFFF"/>
+				<e:Image source="fistpag_focus" x="30" y="252"/>
+				<e:Label y="259" text="一周作品聚焦" fontFamily="黑体" x="79" id="lable_focusTitlt0" textColor="0x000000"/>
+				<e:Label id="lable_focusTitlt" text="一周作品聚焦" x="78" y="258" textColor="0xF8EB19" fontFamily="黑体"/>
+			</e:Group>
+			<e:Group id="group_comeToMyStar" width="750" y="376" x="0">
+				<e:Rect height="66" width="750" x="0" y="0" fillColor="0xFFFFFF"/>
+				<e:Rect width="750" y="66" height="2" x="0" fillColor="0xF0F0F0"/>
+				<e:Label id="lable_myStar" x="67" y="17" fontFamily="黑体" textColor="0x444444" text="我们的明星"/>
+				<e:Rect height="226" width="750" x="0" y="68" fillColor="0xFFFFFF"/>
+				<e:Image id="img_icon" height="150" width="150" x="30" y="105"/>
+				<e:Image id="img_topIcon" source="fistpag_myStar" x="30" y="105"/>
+				<e:Label id="lable_starName" x="210" y="128" fontFamily="黑体" size="38" textColor="0x070707"/>
+				<e:Label id="lable_hot" y="193" fontFamily="黑体" textColor="0x5D5D5D" x="250"/>
+				<e:Image source="fistpag_huoyan" x="212" y="185"/>
+				<e:Rect height="66" width="750" x="0" y="310" fillColor="0xFFFFFF"/>
+				<e:Label id="lable_RankStar" y="326" textColor="0x444444" text="月度QQ群明星排行" fontFamily="黑体" x="67"/>
+				<e:Image source="fistpage_star" x="30" y="20"/>
+				<e:Image source="fistpage_rank" x="30" y="327"/>
+				<e:Label id="lable_go" text="进入" x="625" y="160" fontFamily="黑体" textColor="0x6C77C9"/>
+				<e:Image source="fistpage_dirc" x="694" y="165"/>
+				<e:Image id="img_rankIMg" height="52" width="52" x="30" y="198"/>
+				<e:Label id="lable_rankNumber" y="210" fontFamily="黑体" x="47" text="25" textColor="0xFFFFFF"/>
+			</e:Group>
+			<e:Group id="group_GroupRank" x="0" width="750" y="752"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

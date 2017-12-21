@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="NewStarUISkin" width="750" height="1472" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF" touchEnabled="false" cacheAsBitmap="true"/>
+	<e:Scroller id="scroll1" width="750" height="1471" x="0" y="0">
+		<e:Group>
+			<e:Label y="877" textColor="0x14B8F7" text="明星照片/海报" fontFamily="黑体" x="30" size="34" touchEnabled="false" id="lbl9"/>
+			<e:Image id="btnBack" source="n_cjmx5" x="30" y="30"/>
+			<e:Label id="lbl0" text="添加明星" y="39" size="40" fontFamily="黑体" textColor="0x14B8F7" touchEnabled="false" x="295"/>
+			<e:Label y="170" textColor="0x14B8F7" text="明星姓名" fontFamily="黑体" size="36" touchEnabled="false" id="lbl1" x="30"/>
+			<e:Label y="178" text="请填写明星姓名" fontFamily="黑体" id="lbl11" size="24" touchEnabled="false" x="206" textColor="0xFF0000" visible="false"/>
+			<e:Label y="390" textColor="0xFF0000" text="请填写明星介绍" fontFamily="黑体" x="206" size="24" touchEnabled="false" id="lbl12" visible="false"/>
+			<e:Label y="598" textColor="0xFF0000" text="请填写明星类别" fontFamily="黑体" id="lbl13" size="24" touchEnabled="false" x="206" visible="false"/>
+			<e:Label y="170" textColor="0x14B8F7" text="(必填)" fontFamily="黑体" id="lbl2" size="30" touchEnabled="false" x="619"/>
+			<e:Image source="n_cjmx1" y="234" horizontalCenter="0" touchEnabled="false"/>
+			<e:EditableText id="lblStarName" width="657" height="49" text="请输入明星姓名或组合全称" y="249" verticalAlign="middle" fontFamily="黑体" maxChars="15" size="30" textColor="0xBCD5DF" horizontalCenter="0"/>
+			<e:Label y="382" textColor="0x14B8F7" text="明星介绍" fontFamily="黑体" id="lbl3" size="36" touchEnabled="false" x="30"/>
+			<e:Label y="382" textColor="0x14B8F7" text="(必填)" fontFamily="黑体" id="lbl4" size="30" touchEnabled="false" x="619"/>
+			<e:Label y="591" textColor="0x14B8F7" text="明星类别" fontFamily="黑体" x="30" size="36" touchEnabled="false" id="lbl5"/>
+			<e:Label y="591" textColor="0x14B8F7" text="(必填)" fontFamily="黑体" x="619" size="30" touchEnabled="false" id="lbl6"/>
+			<e:Label y="877" textColor="0x14B8F7" text="(选填)" fontFamily="黑体" x="619" size="30" touchEnabled="false" id="lbl8"/>
+			<e:Image source="n_cjmx1" y="446" horizontalCenter="0" touchEnabled="false" x="10"/>
+			<e:EditableText id="lblStarDesc" verticalAlign="middle" y="461" height="49" text="如代表作等" fontFamily="黑体" x="49" width="657" maxChars="50" size="30" textColor="0xBCD5DF"/>
+			<e:Group id="groupData" height="134" width="750" x="0" y="678">
+				<e:layout>
+					<e:TileLayout horizontalGap="130" verticalGap="50" paddingLeft="80"/>
+				</e:layout>
+			</e:Group>
+			<e:Image id="btnAdd" source="n_cjmx4" y="952" horizontalCenter="0"/>
+			<e:Rect id="rectStarBack" height="200" width="200" x="275" y="955" fillColor="0xFFFFFF" visible="false"/>
+			<e:Image id="bmpStar" x="275" y="955" touchEnabled="false"/>
+			<e:Rect id="maskStar" height="200" width="200" x="275" y="955"/>
+			<e:Group id="groupBottom" height="185" width="750" x="0" y="1195">
+				<e:Label y="0" textColor="0x14B8F7" text="该明星竖版海报或者美照,审核通过后可用于该应该中" fontFamily="黑体" size="28" touchEnabled="false" id="lbl7" horizontalCenter="0"/>
+				<e:Rect id="btnOK" height="90" width="675" y="91" horizontalCenter="0.5" fillColor="0x14B8F7" ellipseHeight="20" ellipseWidth="20"/>
+				<e:Label id="lbl10" text="提交" y="115" horizontalCenter="0" fontFamily="黑体" size="44" touchEnabled="false"/>
+			</e:Group>
+			<e:Group id="groupTip" left="0" right="0" top="0" height="1472" visible="false">
+				<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5"/>
+				<e:Label id="lbl14" text="正在提交,请稍后..." y="882" horizontalCenter="0" fontFamily="黑体" touchEnabled="false" size="50"/>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

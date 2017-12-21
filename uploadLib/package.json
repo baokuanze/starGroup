@@ -1,0 +1,12 @@
+{
+	"name": "egret",
+	"version": "3.0.0",
+	"modules": [
+		{
+			"name": "uploadLib",
+			"description": "uploadLib",
+			"files": ["h5uploader.js","wxuploader.js","h5uploader.d.ts"],
+			"root": "src"
+		}
+	]
+}

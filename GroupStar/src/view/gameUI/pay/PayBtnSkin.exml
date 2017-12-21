@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PayBtnSkin" states="up,down,disabled" width="124" height="62"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="pay_goumai"/>
+	<e:Label id="labelDisplay" y="15" horizontalCenter="0" fontFamily="黑体"/>
+</e:Skin>

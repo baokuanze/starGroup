@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AlertContentSkin" width="632" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lb1" text="各位亲：" y="0" fontFamily="黑体" size="28" textColor="0x000000"/>
+	<e:Label y="231" textColor="0x000000" text="热烈祝贺十位应援获奖者：" fontFamily="黑体" size="28" id="lb2" x="0"/>
+	<e:Label y="56" textColor="0x000000" text="为期10天的树新蜂应援活动完美收官了,活动得到了广大粉友的热情追捧与积极参与。共收到应援3万余条。经过粉友们评选，10位获奖者已经产生了！在此，感谢所有粉友们的关注和支持。" fontFamily="黑体" size="28" id="lb0" x="0" width="632" height="146" lineSpacing="10"/>
+	<e:Label y="310" textColor="0x000000" fontFamily="黑体" id="lb3" size="28" x="4" maxWidth="632" lineSpacing="10"/>
+	<e:Group id="groupAwards" width="632" y="275">
+		<e:layout>
+			<e:VerticalLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

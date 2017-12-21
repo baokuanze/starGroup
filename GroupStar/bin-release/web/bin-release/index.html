@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>超级粉丝团</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #ffffff;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+		video{
+            position: absolute;
+            z-index: 0;
+            width: 100%;
+            height: 100%;
+            top:0%;
+            left:-5%
+        }
+        .videobox{
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            z-index: 0;
+            width: 1px;
+            height:1px;
+            margin: 0 0 0 0px;
+            -webkit-perspective: 1000;
+            perspective: 1000;
+            overflow: hidden;
+        }
+        .video-box{width: 100%; height: 110%; background-color: #000;}
+    </style>
+	<script src="http://s.url.cn/qqweb/m/qunopen/component/sdk/opengroup.js?_bid=2173"></script>
+	<script src="http://cdn.xintiao100.com/star/launcher/build.js?n=1.1.48&_bid=2263"></script>
+	<script src="emoji.js"></script>
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/md5/md5.min.js"></script>
+	<script egret="lib" src="libs/modules/uploadLib/uploadLib.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script src="main.min.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+	<div id="v1" class="videobox">
+		<video  class="video-box" data-index="1" id="myvideo1"   x-webkit-airplay="true" webkit-playsinline="true"  src="" >
+			
+		</video>
+	</div>
+    <div style="margin: auto;width: 100%;height: 100%; z-index:999" class="egret-player"
+         data-entry-class="GameApp"
+         data-orientation="auto"
+         data-scale-mode="fixedWidth"
+         data-frame-rate="60"
+         data-content-width="750"
+         data-content-height="1206"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+    </div>
+
+    <script>
+		require("boot");
+        egret.runEgret({renderMode:"canvas"});
+		window.isIos=function(){
+			return browser.versions.iso;
+		}
+		window.endVideo=function(key){
+			document.body.style.backgroundColor="#ffffff";
+			var v1=document.getElementById("v1");
+			var v=document.getElementById("myvideo1");
+			v1.style.width="1px";
+			v1.style.height="1px";
+			v.pause();
+			v.src=key;
+			//v.load();
+		}
+		window.playVideo=function(h,y,key){
+			console.log('play video:'+key);
+			document.body.style.backgroundColor="#000000";
+			var v1=document.getElementById("v1");
+			var v=document.getElementById("myvideo1");
+			v1.style.height=h+"px";
+			v1.style.top=y+"px";
+			if(browser.versions.iso||browser.versions.iPhone){
+				v1.style.width="110%";
+			}else{
+				v1.style.width="100%";
+				v.style.width="110%";
+				v1.style.left="0%";
+			}
+			
+			/**if(browser.versions.iso||browser.versions.iPhone){
+				v1.style.width="110%";
+				v1.style.height="100%";
+			}else{
+				v1.style.top=y+"px";
+				v1.style.height=h+"px";
+				v1.style.width="110%";
+				v.style.width="110%";
+				//v1.style.height="110%";
+				v1.style.left="-5%";
+			}**/
+			v.src=key;
+			v.load();
+			v.play();
+		}
+		window.changeVideo=function(src){
+			var v=document.getElementById("myvideo1");
+			v.src=key;
+			//v.load();
+		}
+		//写cookies
+		window.setCook=function(name,value)
+		{
+			var Days = 30;
+			var exp = new Date();
+			exp.setTime(exp.getTime() + Days*24*60*60*1000);
+			document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+		}
+		window.getCook=function(name)
+		{
+		    var cookieValue = "";
+		    var search = name + "=";
+		    if (document.cookie.length > 0)
+		    {
+		        offset = document.cookie.indexOf (search);
+		        if (offset != -1)
+		        {
+		            offset += search.length;
+		            end = document.cookie.indexOf (";", offset);
+		            if (end == -1)
+		                end = document.cookie.length;
+		            cookieValue = unescape (document.cookie.substring (offset, end))
+		        }
+		    }
+		    return cookieValue;
+		}
+		window.onload=function(){
+			//var v=document.getElementById("myvideo1");
+			//v.load();
+			//v.addEventListener("ended",function(evt) {
+			//	console.log('zhibo end!!!!!!!');
+			//});
+		}
+    	window.htmlDecode=function(str) {
+	    	var s = "";
+	    	if (str.length == 0) return "";
+	    	s = str.replace(/&amp;/g, "&");
+	    	s = s.replace(/&lt;/g, "<");
+	    	s = s.replace(/&gt;/g, ">");
+	    	s = s.replace(/&nbsp;/g, " ");
+	    	s = s.replace(/&#39;/g, "\'");
+	    	s = s.replace(/&quot;/g, "\"");
+	    	s = s.replace(/<br>/g, "\n");
+    		return s;
+    	}
+    	window.decToHex = function(str) {
+    		str=window.htmlDecode(str);
+    		var res=[];
+    		for(var i=0;i < str.length;i++)
+    		res[i]=("00"+str.charCodeAt(i).toString(16)).slice(-4);
+    		return "\\u"+res.join("\\u");
+    	}
+    	window.hexToDec = function(str) {
+    		str=decodeURI(str);
+    		str=str.replace(/\\/g,"%");
+    		str=unescape(str);
+    		str=window.htmlDecode(str);
+    		return unescape(str);
+    		//return encodeURI(str);
+    	}
+    	window.getQueryString=function(name) { 
+    		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+    		var r = window.location.search.substr(1).match(reg); 
+    		if (r != null) return unescape(r[2]); return null; 
+    		//return decodeURI(name);
+    	} 
+    	window.isChinese =function(str )
+    	{
+    		var reg = /[\u4E00-\u9FA5\uF900-\uFA2D]/;
+    		var ret=reg.test(str);
+    		var ret1=isChina(str);
+    		if(ret&&ret1){
+    			return true;
+    		}else{
+    			return false;
+    		}   		
+    	}
+    	function isChina(s) //判断字符是否是中文字符 
+    	{ 
+    		var patrn= /[\u4E00-\u9FA5]|[\uFE30-\uFFA0]/gi; 
+    		if (!patrn.exec(s)) 
+    		{ 
+    			return false; 
+    		}else{ 
+    			return true; 
+    		} 
+    	} 
+		var browser={
+    versions:function(){
+        var u = navigator.userAgent, app = navigator.appVersion;
+			return {
+				trident: u.indexOf('Trident') > -1, //IE内核
+				presto: u.indexOf('Presto') > -1, //opera内核
+				webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+				gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,//火狐内核
+				mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+				ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+				android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+				iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone或者QQHD浏览器
+				iPad: u.indexOf('iPad') > -1, //是否iPad
+				webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+				weixin: u.indexOf('MicroMessenger') > -1, //是否微信 （2015-01-22新增）
+				qq: u.match(/\sQQ/i) == " qq" //是否QQ
+			};
+		}(),
+		language:(navigator.browserLanguage || navigator.language).toLowerCase()
+	}
+    </script>
+</body>
+</html>
+

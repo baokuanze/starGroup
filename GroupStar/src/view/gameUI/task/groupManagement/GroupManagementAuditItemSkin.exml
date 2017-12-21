@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GroupManagementAuditItemSkin" width="710" height="163"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="btn_left" height="130" width="687" x="11" y="13" fillColor="0xFFFFFF"/>
+	<e:Label id="lable_auditTitle" text="部落签到" y="38" fontFamily="黑体" textColor="0x333333" x="33" touchEnabled="false"/>
+	<e:Label id="lable_auditInformation" y="83" text="今日完成情况" fontFamily="黑体" x="33" textColor="0x666666" touchEnabled="false"/>
+	<e:Rect height="2" width="710" x="0" y="161" fillColor="0x999999"/>
+	<e:Image x="652" verticalCenter="0.5" source="gm_left" touchEnabled="false"/>
+</e:Skin>

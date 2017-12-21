@@ -1,0 +1,456 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>超级粉丝团</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #ffffff;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+		video{
+            position: absolute;
+            z-index: 0;
+            width: 100%;
+            height: 100%;
+            top:0%;
+            left:-5%
+        }
+        .videobox{
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            z-index: 0;
+            width: 1px;
+            height:1px;
+            margin: 0 0 0 0px;
+            -webkit-perspective: 1000;
+            perspective: 1000;
+            overflow: hidden;
+        }
+        .video-box{width: 100%; height: 110%; background-color: #000;}
+    </style>
+	<script src="http://s.url.cn/qqweb/m/qunopen/component/sdk/opengroup.js?_bid=2173"></script>
+	<script src="http://cdn.xintiao100.com/star/launcher/build.js?n=1.1.48&_bid=2263"></script>
+	<script src="emoji.js"></script>
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.js" src-release="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/md5/md5.js" src-release="libs/modules/md5/md5.min.js"></script>
+	<script egret="lib" src="libs/modules/uploadLib/uploadLib.js" src-release="libs/modules/uploadLib/uploadLib.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/controller/ControllerManager.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/AggregationController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/BuyTicketController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/FansRecruitController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/GameMainController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/GarbageCollectionController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/GroupManagementAuditController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/GroupManagerController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/HeadLineController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/HeadLineItemInfoController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/MonthTieController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/NewStarController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/PayController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/RankGroupContributionController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/RankGroupController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/RankStarController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/RankUserContributionController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/signInController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/StarFansTVController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/SweepsTasksController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/TaskController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/TopRankGroupController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/UploadController.js"></script>
+	<script egret="game" src="bin-debug/controller/gameUI/WeekPushController.js"></script>
+	<script egret="game" src="bin-debug/controller/loader/LoaderManager.js"></script>
+	<script egret="game" src="bin-debug/controller/loader/LoadStar.js"></script>
+	<script egret="game" src="bin-debug/controller/util/BaseURLLoader.js"></script>
+	<script egret="game" src="bin-debug/controller/Util.js"></script>
+	<script egret="game" src="bin-debug/data/DataManager.js"></script>
+	<script egret="game" src="bin-debug/data/PomeloData.js"></script>
+	<script egret="game" src="bin-debug/data/Sounds.js"></script>
+	<script egret="game" src="bin-debug/data/Tools.js"></script>
+	<script egret="game" src="bin-debug/data/UpLoadFile.js"></script>
+	<script egret="game" src="bin-debug/GameApp.js"></script>
+	<script egret="game" src="bin-debug/IoConnect.js"></script>
+	<script egret="game" src="bin-debug/JsonpReq.js"></script>
+	<script egret="game" src="bin-debug/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/Manager.js"></script>
+	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
+	<script egret="game" src="bin-debug/view/common/BaseView.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/aler/AlertManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/aler/AlertPanel.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/aler/AlertPanel1.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/barrage/BarrageItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/barrage/BarrageMananger.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/buyTicketActive/AlertBuyTicket.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/buyTicketActive/AlertContent.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/buyTicketActive/AwardPerson.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/buyTicketActive/BuyTicket.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/buyTicketActive/BuyTicketManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/buyTicketActive/CommentStyle.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/containmoney/ContainMoneyItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/containmoney/ContainmoneyOpen.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/containmoney/ContainmoneyUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/fansRecruit/FansRecruitItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/fansRecruit/FansRecruitManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/fansRecruit/FansRecruitUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/flower/FlowerBtnSend.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/flower/FlowerItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/flower/FlowerUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/follow/Follow.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/garbageCollection/GarbageCollection.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/garbageCollection/GarbageCollectionManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/garbageCollection/WorksItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/headlines/HeadLineItemInfoManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/headlines/HeadLineItemInfor.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/headlines/HeadLines.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/headlines/HeadLinesItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/headlines/HeadlinesManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/headlines/HeadLinesStarImg.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/headlines/mySelfStar/MyselfHeadLines.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/headlines/mySelfStar/MySelfHeadLinesItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/headlines/mySelfStar/StarIcon.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/liveChatRoom/LiveChatRoomManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/liveChatRoom/LiveChatRoomUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/liveChatRoom/LiveTalkChat.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/liveChatRoom/LiveTalkChatItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/mainUI/BtnBuluo.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/mainUI/BtnMain.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/mainUI/GameMainManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/mainUI/GameMainUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/mainUI/HumenBody.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/mainUI/HumenUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/mainUI/MainProIcon.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/mainUI/MainUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/mainUI/MainZcItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/mainUI/StarTx.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/mbarrage/MBarrageItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/mbarrage/MBarrageUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/module/BaseCircleImage.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/module/BaseEuiImage.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/monthTie/MonthTie.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/monthTie/MonthTieManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/monthTie/MonthTieMonth.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/monthTie/MonthTie_FansTable_Item.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/monthTie/MonthTie_HeatTable_Item.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/monthTie/MonthTie_StarTable_Item.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/newstar/NewStarCheckBoxItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/newstar/NewStarManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/newstar/NewStarSerachUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/newstar/NewStarUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/pay/PayManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/pay/PayUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankGroup/GroupBookUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankGroup/RankGroupItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankGroup/RankGroupItem1.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankGroup/RankGroupItem2.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankGroup/RankGroupManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankGroup/RankGroupUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankGroupContribution/groupXuan/GroupXuan.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankGroupContribution/RankGroupContributionManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankGroupContribution/RankGroupContributionUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankGroupContribution/RankGroupItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankGroupContribution/RankGroupItem1.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankStar/RankStarItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankStar/RankStarManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankStar/RankStarUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankUserContribution/RankUserContributionItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankUserContribution/RankUserContributionItem1.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankUserContribution/RankUserContributionManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/rankUserContribution/RankUserContributionUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/starfanstv/StarFansTVManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/starfanstv/StarFansTVUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/starfanstv/StarFanTVItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/starPage/StarPageItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/starPage/StarPageManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/starPage/StarPageTip.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/starPage/StarPageUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/sweepsTasks/SweepsTasks.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/sweepsTasks/SweepsTasksManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/system/GroupJoin.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/system/GroupReward.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/system/Image.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/system/notice/Notice.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/system/Publish/NewPublish.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/system/Publish/Part1.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/system/Share.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/system/TipText.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/system/TipText1.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/system/TopScreenOfGroupRank/TopGroupRank.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/system/TopScreenOfGroupRank/TopGroupRankManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/system/TopScreenOfGroupRank/TopRank.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/aggregation/AggregationIcon.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/aggregation/AggregationIcon1.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/aggregation/AggregationIconUp.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/aggregation/AggregationManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/giftcf/GiftCf.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/giftcf/GiftCfBtn.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/giftcf/GiftCfItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/giftcf/GiftCfItem1.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/giftcf/GiftManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/GroupManagement.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/groupManagementAudit.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/GroupManagementAuditItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/GroupManagementAuditItemInformation.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/GroupManagementAuditItemInformationItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/GroupManagementAuditManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/GroupManagementItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/GroupManagementItemInformation.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/GroupManagementPush.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/GroupManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/GroupManagerPushImage.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/GroupManagerPushImage1.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupManagement/HostManagement.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/groupXuan/TaskGroupXuan.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/signIn/SignIn.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/signIn/SignInManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/signIn/SignPersonIcon.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/TaskHallofFame.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/TaskIcon.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/TaskItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/TaskManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/taskoepn/TaskOpenManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/taskoepn/TaskOpenUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/TaskOpen.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/TaskTip.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/task/TaskUI.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/upload/Upload.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/upload/UploadDesc.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/upload/UploadItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/upload/UploadManager.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/userPanel/UserPaise.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/userPanel/UserPaiseIcon.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/userPanel/UserPanel.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/userPanel/UserPanelItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/weekPush/newWeekPush/NewWeekPush.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/weekPush/newWeekPush/NewWeekPushContributionItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/weekPush/newWeekPush/NewWeekPushHonor.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/weekPush/WeekPushManage.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/Collection.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/zfBag/Zfdy10.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/zfBag/Zfdy11.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/zfBag/Zfdy12.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/Zfdy1.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/Zfdy2.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/Zfdy3.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/Zfdy4.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/Zfdy5.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/Zfdy6.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/Zfdy7.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/Zfdy8.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/Zfdy9.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/ZfdyHeadItem.js"></script>
+	<script egret="game" src="bin-debug/view/gameUI/zfdy/ZfHeadItem.js"></script>
+	<script egret="game" src="bin-debug/view/loader/Loading.js"></script>
+	<script egret="game" src="bin-debug/view/loader/MainLoading.js"></script>
+	<script egret="game" src="bin-debug/view/loader/ModuleLoading.js"></script>
+	<script egret="game" src="bin-debug/view/ViewManager.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+	<div id="v1" class="videobox">
+		<video  class="video-box" data-index="1" id="myvideo1"   x-webkit-airplay="true" webkit-playsinline="true"  src="" >
+			
+		</video>
+	</div>
+    <div style="margin: auto;width: 100%;height: 100%; z-index:999" class="egret-player"
+         data-entry-class="GameApp"
+         data-orientation="auto"
+         data-scale-mode="fixedWidth"
+         data-frame-rate="60"
+         data-content-width="750"
+         data-content-height="1206"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+    </div>
+
+    <script>
+		require("boot");
+        egret.runEgret({renderMode:"canvas"});
+		window.isIos=function(){
+			return browser.versions.iso;
+		}
+		window.endVideo=function(key){
+			document.body.style.backgroundColor="#ffffff";
+			var v1=document.getElementById("v1");
+			var v=document.getElementById("myvideo1");
+			v1.style.width="1px";
+			v1.style.height="1px";
+			v.pause();
+			v.src=key;
+			//v.load();
+		}
+		window.playVideo=function(h,y,key){
+			console.log('play video:'+key);
+			document.body.style.backgroundColor="#000000";
+			var v1=document.getElementById("v1");
+			var v=document.getElementById("myvideo1");
+			v1.style.height=h+"px";
+			v1.style.top=y+"px";
+			if(browser.versions.iso||browser.versions.iPhone){
+				v1.style.width="110%";
+			}else{
+				v1.style.width="100%";
+				v.style.width="110%";
+				v1.style.left="0%";
+			}
+			
+			/**if(browser.versions.iso||browser.versions.iPhone){
+				v1.style.width="110%";
+				v1.style.height="100%";
+			}else{
+				v1.style.top=y+"px";
+				v1.style.height=h+"px";
+				v1.style.width="110%";
+				v.style.width="110%";
+				//v1.style.height="110%";
+				v1.style.left="-5%";
+			}**/
+			v.src=key;
+			v.load();
+			v.play();
+		}
+		window.changeVideo=function(src){
+			var v=document.getElementById("myvideo1");
+			v.src=key;
+			//v.load();
+		}
+		//写cookies
+		window.setCook=function(name,value)
+		{
+			var Days = 30;
+			var exp = new Date();
+			exp.setTime(exp.getTime() + Days*24*60*60*1000);
+			document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+		}
+		window.getCook=function(name)
+		{
+		    var cookieValue = "";
+		    var search = name + "=";
+		    if (document.cookie.length > 0)
+		    {
+		        offset = document.cookie.indexOf (search);
+		        if (offset != -1)
+		        {
+		            offset += search.length;
+		            end = document.cookie.indexOf (";", offset);
+		            if (end == -1)
+		                end = document.cookie.length;
+		            cookieValue = unescape (document.cookie.substring (offset, end))
+		        }
+		    }
+		    return cookieValue;
+		}
+		window.onload=function(){
+			//var v=document.getElementById("myvideo1");
+			//v.load();
+			//v.addEventListener("ended",function(evt) {
+			//	console.log('zhibo end!!!!!!!');
+			//});
+		}
+    	window.htmlDecode=function(str) {
+	    	var s = "";
+	    	if (str.length == 0) return "";
+	    	s = str.replace(/&amp;/g, "&");
+	    	s = s.replace(/&lt;/g, "<");
+	    	s = s.replace(/&gt;/g, ">");
+	    	s = s.replace(/&nbsp;/g, " ");
+	    	s = s.replace(/&#39;/g, "\'");
+	    	s = s.replace(/&quot;/g, "\"");
+	    	s = s.replace(/<br>/g, "\n");
+    		return s;
+    	}
+    	window.decToHex = function(str) {
+    		str=window.htmlDecode(str);
+    		var res=[];
+    		for(var i=0;i < str.length;i++)
+    		res[i]=("00"+str.charCodeAt(i).toString(16)).slice(-4);
+    		return "\\u"+res.join("\\u");
+    	}
+    	window.hexToDec = function(str) {
+    		str=decodeURI(str);
+    		str=str.replace(/\\/g,"%");
+    		str=unescape(str);
+    		str=window.htmlDecode(str);
+    		return unescape(str);
+    		//return encodeURI(str);
+    	}
+    	window.getQueryString=function(name) { 
+    		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+    		var r = window.location.search.substr(1).match(reg); 
+    		if (r != null) return unescape(r[2]); return null; 
+    		//return decodeURI(name);
+    	} 
+    	window.isChinese =function(str )
+    	{
+    		var reg = /[\u4E00-\u9FA5\uF900-\uFA2D]/;
+    		var ret=reg.test(str);
+    		var ret1=isChina(str);
+    		if(ret&&ret1){
+    			return true;
+    		}else{
+    			return false;
+    		}   		
+    	}
+    	function isChina(s) //判断字符是否是中文字符 
+    	{ 
+    		var patrn= /[\u4E00-\u9FA5]|[\uFE30-\uFFA0]/gi; 
+    		if (!patrn.exec(s)) 
+    		{ 
+    			return false; 
+    		}else{ 
+    			return true; 
+    		} 
+    	} 
+		var browser={
+    versions:function(){
+        var u = navigator.userAgent, app = navigator.appVersion;
+			return {
+				trident: u.indexOf('Trident') > -1, //IE内核
+				presto: u.indexOf('Presto') > -1, //opera内核
+				webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+				gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,//火狐内核
+				mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+				ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+				android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+				iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone或者QQHD浏览器
+				iPad: u.indexOf('iPad') > -1, //是否iPad
+				webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+				weixin: u.indexOf('MicroMessenger') > -1, //是否微信 （2015-01-22新增）
+				qq: u.match(/\sQQ/i) == " qq" //是否QQ
+			};
+		}(),
+		language:(navigator.browserLanguage || navigator.language).toLowerCase()
+	}
+    </script>
+</body>
+</html>
+

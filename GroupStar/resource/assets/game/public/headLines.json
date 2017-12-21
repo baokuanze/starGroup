@@ -1,0 +1,14 @@
+{"file":"headLines.png","frames":{
+"hl_ding":{"x":0,"y":310,"w":127,"h":38,"offX":0,"offY":0,"sourceW":127,"sourceH":38},
+"n3":{"x":134,"y":217,"w":87,"h":25,"offX":0,"offY":0,"sourceW":87,"sourceH":25},
+"n2":{"x":134,"y":190,"w":87,"h":25,"offX":0,"offY":0,"sourceW":87,"sourceH":25},
+"hl_smallYuan":{"x":0,"y":176,"w":132,"h":132,"offX":0,"offY":0,"sourceW":132,"sourceH":132},
+"hl_movie":{"x":214,"y":244,"w":38,"h":39,"offX":0,"offY":0,"sourceW":38,"sourceH":39},
+"hl_add":{"x":176,"y":128,"w":60,"h":60,"offX":0,"offY":0,"sourceW":60,"sourceH":60},
+"hl_tv":{"x":134,"y":271,"w":38,"h":38,"offX":0,"offY":0,"sourceW":38,"sourceH":39},
+"hl_lookMore":{"x":134,"y":176,"w":19,"h":11,"offX":0,"offY":0,"sourceW":19,"sourceH":11},
+"hl_back":{"x":176,"y":66,"w":60,"h":60,"offX":0,"offY":0,"sourceW":60,"sourceH":60},
+"hl_bigYuan":{"x":0,"y":0,"w":174,"h":174,"offX":0,"offY":0,"sourceW":174,"sourceH":174},
+"hl_music":{"x":174,"y":271,"w":37,"h":37,"offX":1,"offY":1,"sourceW":38,"sourceH":39},
+"n1":{"x":134,"y":244,"w":78,"h":25,"offX":0,"offY":0,"sourceW":78,"sourceH":25},
+"hl_mxtt":{"x":176,"y":0,"w":63,"h":64,"offX":0,"offY":0,"sourceW":63,"sourceH":64}}}

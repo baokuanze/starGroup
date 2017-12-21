@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankGroupUISkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0xFFFFFF" left="0" right="0" top="0" bottom="0" cacheAsBitmap="true"/>
+	<e:Image y="20" x="20" id="rtnBtn" source="p_btnback1"/>
+	<e:Label id="lblTitle" y="29" horizontalCenter="-10" text="粉丝团排行榜" fontFamily="黑体" size="34" x="10" textColor="0x000000"/>
+	<e:Scroller id="scroll1" width="750" height="1224" x="0" y="95">
+		<e:Group id="groupData">
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

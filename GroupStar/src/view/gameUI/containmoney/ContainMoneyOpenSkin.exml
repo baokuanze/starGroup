@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ContainMoneyOpenSkin" width="388" height="538" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bmpBack" x="0" y="0" source="h_back"/>
+	<e:Image id="bmpBackTitle" x="0" y="23" source="h_t1" touchEnabled="false"/>
+	<e:Image id="bmpT3" x="0" y="0" source="h_t3"/>
+	<e:Image id="bmpIconBack" y="105" touchEnabled="false" horizontalCenter="0" source="h_head"/>
+	<e:Image id="btnClose" x="361" source="h_x" y="-1"/>
+	<e:Label id="lblTitle" text="谁的真爱红包" y="397" size="26" fontFamily="黑体" horizontalCenter="0" touchEnabled="false"/>
+	<e:Label id="lblName" text="放开那麻麻" y="255" textColor="0xF4F036" fontFamily="黑体" horizontalCenter="0" touchEnabled="false" width="306" textAlign="center" height="36" size="36"/>
+	<e:Label id="lblTip" text="手慢了，红包已抢完" y="355" fontFamily="黑体" size="26" horizontalCenter="0" textColor="0xE2E929" touchEnabled="false"/>
+	<e:Image id="bmpStar" x="165" y="450" touchEnabled="false" source="p_zuanshi" scaleX=".5" scaleY=".5"/>
+	<e:Label id="lblStar" text="0" x="206" y="448" size="28" textColor="0xE2E929" fontFamily="黑体" touchEnabled="false"/>
+	<e:Image id="btnOK" y="370" source="h_btn" x="72"/>
+	<e:Label id="lblBtnText" text="打开红包" y="383" size="30" horizontalCenter="0" fontFamily="黑体" touchEnabled="false"/>
+	<e:Label id="lblGroupName" text="百岳互动粉丝团" y="306" horizontalCenter="0" fontFamily="黑体" size="24"/>
+</e:Skin>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Zfdy9Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_roseButton" y="393" anchorOffsetX="262.5" anchorOffsetY="203" source="zc_9_1" x="375"/>
+	<e:Image id="img_roseUp" source="zc_9_2" x="375" y="393" anchorOffsetX="262.5" anchorOffsetY="203"/>
+	<e:Image id="img_star1" source="zfdy_16" x="151" y="167" anchorOffsetX="43" anchorOffsetY="43"/>
+	<e:Image id="img_star2" source="zfdy_16" anchorOffsetX="43" y="352" anchorOffsetY="43" x="649"/>
+	<e:Image source="zfdy_back" y="621" horizontalCenter="0" x="30" width="748" id="bmpTextBack"/>
+	<e:Label y="649" text="高圆圆粉丝群高圆圆粉丝群噶 送给高圆圆遮风挡雨" fontFamily="黑体" id="lblText" size="26" horizontalCenter="0.5" x="30"/>
+	<e:Group y="715" horizontalCenter="0.5" id="groupHead" width="363" height="93" x="30">
+		<e:layout>
+			<e:HorizontalLayout gap="30" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

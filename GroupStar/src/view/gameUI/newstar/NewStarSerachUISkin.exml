@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="NewStarSerachUISkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0xFFFFFF" left="0" right="0" top="0" bottom="0" cacheAsBitmap="true"/>
+	<e:Image source="n_cjmx5" y="30" x="30" id="btnBack"/>
+	<e:Label y="39" textColor="0x14B8F7" text="搜索明星" fontFamily="黑体" id="lbl0" touchEnabled="false" size="40" x="295"/>
+	<e:Image source="n_cjmx1" y="174" horizontalCenter="0" touchEnabled="false"/>
+	<e:EditableText id="lblStarName" width="658" height="51" text="请输入明星姓名或组合全称" x="43" y="187" textColor="0xBCD5DF" fontFamily="黑体" verticalAlign="middle"/>
+	<e:Scroller id="scroll1" width="750" height="600" x="0" y="290">
+		<e:Group id="groupData">
+			<e:layout>
+				<e:TileLayout horizontalGap="18" verticalGap="20" paddingLeft="20"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="groupTip" height="200" width="750" x="0" y="311" visible="false">
+		<e:Rect ellipseWidth="20" ellipseHeight="20" horizontalCenter="0.5" width="675" touchEnabled="true" height="92" fillColor="0x14B8F7" id="btnSend" x="10" y="76"/>
+		<e:Label id="lbl2" y="106" text="添加明星" horizontalCenter="0" touchEnabled="false" size="40" fontFamily="黑体" x="10"/>
+		<e:Label id="lbl1" y="0" textColor="0x14B8F7" fontFamily="黑体" touchEnabled="false" size="30" horizontalCenter="0.5"/>
+	</e:Group>
+</e:Skin>

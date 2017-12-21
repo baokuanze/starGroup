@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MainLoadingSkin" width="750" height="1206" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+	<e:Image y="221" horizontalCenter="0.5" source="p_logo_png"/>
+	<e:Label id="lblText" text="0%" y="698" horizontalCenter="0" fontFamily="黑体" textColor="0xAD98FB" size="60"/>
+	<e:Label y="825" textColor="0xAD98FB" text="QQ群新应用，粉丝专属聚集地!" fontFamily="黑体" horizontalCenter="-3" size="30" id="lblText0" x="10"/>
+</e:Skin>

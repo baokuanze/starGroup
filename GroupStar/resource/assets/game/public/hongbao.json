@@ -1,0 +1,8 @@
+{"file":"hongbao.png","frames":{
+"h_head":{"x":391,"y":1,"w":120,"h":119,"offX":0,"offY":0,"sourceW":120,"sourceH":120},
+"h_t1":{"x":1,"y":543,"w":388,"h":177,"offX":0,"offY":0,"sourceW":388,"sourceH":177},
+"h_t3":{"x":1,"y":722,"w":360,"h":182,"offX":13,"offY":8,"sourceW":388,"sourceH":200},
+"h_x":{"x":391,"y":122,"w":53,"h":53,"offX":0,"offY":0,"sourceW":53,"sourceH":53},
+"h_2":{"x":1,"y":341,"w":388,"h":200,"offX":0,"offY":0,"sourceW":388,"sourceH":200},
+"h_back":{"x":1,"y":1,"w":388,"h":338,"offX":0,"offY":200,"sourceW":388,"sourceH":538},
+"h_btn":{"x":1,"y":906,"w":245,"h":62,"offX":0,"offY":0,"sourceW":245,"sourceH":62}}}

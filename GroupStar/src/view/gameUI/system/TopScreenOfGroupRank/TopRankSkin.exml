@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TopRankSkin" width="750" height="144" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect height="142" width="750" x="0" y="2" fillColor="0xFFFFFF"/>
+	<e:Image id="img_ico" height="100" width="100" x="39" verticalCenter="0"/>
+	<e:Image id="img_pro" height="100" width="100" x="39" verticalCenter="0"/>
+	<e:Image id="img_number" height="42" width="42" x="30" y="74"/>
+	<e:Label id="lable_starName" x="167" y="61" size="32" textColor="0x070707" fontFamily="黑体"/>
+	<e:Image source="fistpag_huoyan" x="703" y="55" width="20" height="30"/>
+	<e:Label id="lable_hot" right="65" size="26" verticalCenter="0" textColor="0x5D5D5D" fontFamily="黑体"/>
+	<e:Label id="lable_rankNumber" width="48" height="30" fontFamily="黑体" size="26" text="1" y="80" verticalAlign="bottom" textAlign="center" x="26" textColor="0xFFFFFF"/>
+</e:Skin>

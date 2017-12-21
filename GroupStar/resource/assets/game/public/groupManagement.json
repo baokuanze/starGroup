@@ -1,0 +1,9 @@
+{"file":"groupManagement.png","frames":{
+"gm_add":{"x":0,"y":0,"w":133,"h":133,"offX":0,"offY":0,"sourceW":133,"sourceH":133},
+"gm_close":{"x":0,"y":135,"w":125,"h":41,"offX":0,"offY":0,"sourceW":125,"sourceH":41},
+"gm_jt":{"x":46,"y":178,"w":152,"h":9,"offX":0,"offY":0,"sourceW":152,"sourceH":9},
+"gm_left":{"x":200,"y":178,"w":15,"h":26,"offX":0,"offY":0,"sourceW":15,"sourceH":26},
+"gm_open":{"x":127,"y":135,"w":125,"h":41,"offX":0,"offY":0,"sourceW":125,"sourceH":41},
+"gm_redFlower":{"x":0,"y":178,"w":44,"h":41,"offX":0,"offY":0,"sourceW":44,"sourceH":41},
+"gm_Vertical":{"x":249,"y":0,"w":2,"h":33,"offX":0,"offY":0,"sourceW":2,"sourceH":33},
+"gm_yuan":{"x":135,"y":0,"w":112,"h":113,"offX":0,"offY":0,"sourceW":112,"sourceH":113}}}

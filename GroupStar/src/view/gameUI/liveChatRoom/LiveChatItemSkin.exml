@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LiveChatItemSkin" width="750" height="32" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="p_barrage_icon1" x="20" y="0" touchEnabled="false" id="bmpTitleBack"/>
+	<e:Label y="6" touchEnabled="false" fontFamily="黑体" id="lblTitle" size="20" text="10" x="57"/>
+	<e:Label y="1" textColor="0x181711" size="30" touchEnabled="false" fontFamily="黑体" id="lblDesc1" strokeColor="0x000000" x="97"/>
+	<e:Label y="0" textColor="0xFFE71E" size="30" touchEnabled="false" fontFamily="黑体" id="lblDesc" strokeColor="0x000000" x="96"/>
+	<e:Label id="lblTalk1" y="1" textColor="0x181711" size="30" touchEnabled="false" fontFamily="黑体" strokeColor="0x000000" x="97" width="580" lineSpacing="5"/>
+	<e:Label id="lblTalk" y="0" textColor="0xFFE71E" size="30" touchEnabled="false" fontFamily="黑体" strokeColor="0x000000" x="96" width="580" lineSpacing="5"/>
+	<e:Label y="1" textColor="0x181711" strokeColor="0x000000" touchEnabled="false" fontFamily="黑体" id="lblName1" size="30" x="97"/>
+	<e:Label y="0" textColor="0xFFE71E" strokeColor="0x000000" touchEnabled="false" fontFamily="黑体" id="lblName" size="30" x="96"/>
+	<e:Image y="-10" touchEnabled="false" x="328" width="50" height="50" id="bmpIcon"/>
+	<e:Image width="20" y="6" height="20" x="215"/>
+	<e:Image source="p1_buluo" y="0" x="20" id="bmpBuluo"/>
+</e:Skin>

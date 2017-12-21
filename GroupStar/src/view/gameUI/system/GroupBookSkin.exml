@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GroupBookSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+	<e:Scroller id="scorll1" width="750" height="1334" x="0" y="0">
+		<e:Group>
+			<e:Rect id="btnJoin1" height="28" width="616" x="21" y="161" fillAlpha="0"/>
+			<e:Rect id="btnJoin2" width="616" y="206" height="28" x="21" fillAlpha="0"/>
+			<e:Label y="29" textColor="0x000000" fontFamily="黑体" id="lblTitle" size="34" text="群主攻略" horizontalCenter="0"/>
+			<e:Label id="lbl1" text="群主必做:" x="20" y="117" fontFamily="黑体" size="30" textColor="0x8B57C5"/>
+			<e:Label id="lbl2" y="161" textColor="0x000000" text="关注部落：点击访问官方部落" fontFamily="黑体" size="30" x="20" touchEnabled="false"/>
+			<e:Label id="lbl3" y="205" textColor="0x000000" text="加官方群主QQ群：201758241（点击加群）" fontFamily="黑体" size="30" x="20" touchEnabled="false"/>
+			<e:Label id="lbl4" y="247" textColor="0x000000" text="官方客服QQ：3409474914" fontFamily="黑体" size="30" x="20"/>
+			<e:Label id="lbl5" y="305" text="怎么获得钻石？" fontFamily="黑体" size="30" x="20" textColor="0x8B57C5"/>
+			<e:Label id="lbl6" y="350" textColor="0x000000" text="1.	每日签到，每日首签+10钻哦" fontFamily="黑体" size="30" x="20"/>
+			<e:Label id="lbl9" y="613" text="怎么为喜爱的明星增加热度提升排名？" fontFamily="黑体" size="30" x="20" textColor="0x8B57C5"/>
+			<e:Label id="lbl8" y="480" textColor="0x000000" text="3.	每天多多让群友签到、集结哦，这样第二天群主登陆后，能够获得群主专属奖励，群友活跃高奖励越高。" fontFamily="黑体" size="30" x="20" width="700" lineSpacing="10"/>
+			<e:Label id="lbl10" lineSpacing="10" textColor="0x000000" text="获得钻石后，推荐用在礼物众筹，众筹成功后，会为明星增加大量热度，礼物众筹有过期时间，要注意时间哦。" fontFamily="黑体" width="700" y="658" size="30" x="20"/>
+			<e:Label id="lbl11" y="797" text="每天还要为明星打各种榜单，如何管理好？" fontFamily="黑体" size="30" x="20" maxWidth="700" lineSpacing="10" textColor="0x8B57C5"/>
+			<e:Label id="lbl12" y="843" textColor="0x000000" text="群主可以通过发布任意任务来让群友快捷打榜，并且在“审阅任务”中实时查看每天群友的打榜情况，还能奖励群友小红花哟。" fontFamily="黑体" width="700" lineSpacing="10" size="30" x="20"/>
+			<e:Label id="lbl7" y="394" textColor="0x000000" text="2.	每2小时集结一次，有10个群友同时在线即可集结成功,成功后每人都可获得10钻" fontFamily="黑体" size="30" x="20" width="700" lineSpacing="10"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="btnBtn" source="p_btnback1" y="20" x="20"/>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StarFansTVUISkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+	<e:Scroller id="scroll1" width="750" height="1334" y="120" x="0">
+		<e:Group id="groupData">
+			<e:layout>
+				<e:VerticalLayout gap="20" paddingLeft="10"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:Label y="38" textColor="0x000000" text="星粉TV" horizontalCenter="-10" size="34" fontFamily="黑体" id="txt1" x="10"/>
+	<e:Image source="p_btnback1" y="20" x="20" id="btnClose"/>
+</e:Skin>

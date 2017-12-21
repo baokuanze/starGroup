@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="NewWeekPushHonorSkin" width="214" height="302" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lable_topName" y="8" textColor="0x000000" fontFamily="黑体" horizontalCenter="0"/>
+	<e:Label id="lable_topCount" verticalAlign="middle" y="68" textColor="0x14B8F6" fontFamily="黑体" textAlign="center" horizontalCenter="0"/>
+	<e:Image id="img_starIcon" width="120" y="118" height="120" horizontalCenter="0"/>
+	<e:Label id="lable_Team" y="268" textColor="0x666666" fontFamily="黑体" size="24" horizontalCenter="1"/>
+</e:Skin>

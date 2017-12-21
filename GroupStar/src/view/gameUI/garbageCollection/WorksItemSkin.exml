@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WorksItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect_bg" fillAlpha="0" strokeAlpha="1" strokeWeight="2" touchEnabled="false" height="42" ellipseHeight="15" ellipseWidth="15" strokeColor="0xFFFFFF" verticalCenter="0" horizontalCenter="0"/>
+	<e:Label id="lable_titleName" size="28" fontFamily="黑体" touchEnabled="false" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

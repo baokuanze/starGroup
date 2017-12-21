@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FlowerUISkin" width="750" height="310" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.85"/>
+	<e:Group id="groupData" height="217" width="750" x="0" y="23">
+		<e:layout>
+			<e:TileLayout horizontalGap="0" verticalGap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Rect id="btnPay" height="53" width="311" x="19" y="255" fillColor="0xA90000" fillAlpha="0"/>
+	<e:Button id="btnSend1" x="508" y="113" skinName="FlowerBtnSend1Skin"/>
+	<e:Rect height="36" width="80" x="20" y="266" fillColor="0x14B8F6" ellipseHeight="10" ellipseWidth="10" touchEnabled="false"/>
+	<e:Label id="txtCZ" text="充值" x="30" y="269" size="30" fontFamily="黑体" touchEnabled="false"/>
+	<e:Group height="30" width="200" x="108" y="270" touchEnabled="false" touchChildren="false">
+		<e:Label id="lblStar" text="18452" x="107" y="518" fontFamily="黑体" size="28" textAlign="left" touchEnabled="false" textColor="0xFFBE00"/>
+		<e:Image source="p_zuanshi" x="181" y="520" scaleX=".5" scaleY=".5" touchEnabled="false"/>
+		<e:Label id="txtStar" y="519" size="24" text=">" fontFamily="黑体" x="218" touchEnabled="false" textColor="0x827A7A" bold="true"/>
+		<e:layout>
+			<e:HorizontalLayout gap="8"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

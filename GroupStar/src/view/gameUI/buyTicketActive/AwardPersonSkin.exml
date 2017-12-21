@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="AwardPersonSkin" width="632" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect height="1" width="632" x="0" y="69" fillColor="0xD8D8D8"/>
+	<e:Image id="img_icon" height="40" width="40" x="0" y="15"/>
+	<e:Image source="p1_yuan" x="0" id="img_button" width="40" height="40" verticalCenter="0"/>
+	<e:Label id="lb_name" text="地平线上的蚂蚱" x="69" size="28" verticalCenter="0" textColor="0x36A1FF"/>
+	<e:Label id="lb_userId" text="121211" verticalAlign="middle" verticalCenter="0" right="0" textColor="0x808080"/>
+</e:Skin>

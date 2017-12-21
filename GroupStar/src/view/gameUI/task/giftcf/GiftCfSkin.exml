@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GiftCfSkin" width="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0xFFFFFF" left="0" right="0" top="0" height="1334"/>
+	<e:Rect id="btntab1" height="60" width="155" x="218" y="30" ellipseHeight="20" ellipseWidth="20" fillColor="0x3ABEC0" visible="false"/>
+	<e:Rect id="btntab2" ellipseHeight="20" y="30" height="60" ellipseWidth="20" width="155" fillColor="0x3ABEC0" x="380" fillAlpha="1" alpha="0" visible="false"/>
+	<e:Label id="lbltab1" text="进行中" x="253" y="45" fontFamily="黑体" touchEnabled="false" visible="false"/>
+	<e:Label id="lbltab2" y="45" text="已完成" fontFamily="黑体" x="414" touchEnabled="false" textColor="0xABABAB" visible="false"/>
+	<e:Scroller id="scroll1" width="750" height="1334" x="0" y="0">
+		<e:Group>
+			<e:Group id="groupStart" width="750" x="0" y="0">
+				<e:Label id="lblTitle" y="39" horizontalCenter="0" fontFamily="黑体" touchEnabled="false" textColor="0x333333" bold="true" text="明星专属"/>
+				<e:Image id="btnHelp" source="t_wenhao" x="678" y="29"/>
+				<e:Rect id="btnZH" y="429" ellipseWidth="15" fillColor="0xFFA350" width="260" height="70" ellipseHeight="15" x="20"/>
+				<e:Label id="lbl5" y="450" text="召唤群友" bold="true" touchEnabled="false" x="93" textColor="0xFFFFFF"/>
+				<e:Label id="lblDate" y="146" fontFamily="黑体" size="24" textColor="0x666666" x="308"/>
+				<e:Label id="lbl1" text="已筹到" x="308" y="226" textColor="0x000000" fontFamily="黑体" size="20" touchEnabled="false"/>
+				<e:Label id="lblLucky" x="433" y="203" touchEnabled="false" size="50" fontFamily="黑体" textColor="0x333333" bold="true"/>
+				<e:Label id="lblPro" x="308" y="305" size="24" fontFamily="黑体" textColor="0xC822C0" touchEnabled="false"/>
+				<e:Label id="lblFansNum" x="618" y="305" fontFamily="黑体" size="20" textAlign="right" touchEnabled="false" textColor="0x333333"/>
+				<e:Label id="lbl2" y="345" textColor="0x666666" text="目标:" fontFamily="黑体" bold="true" touchEnabled="false" size="24" x="308"/>
+				<e:Label id="lblGX" y="345" textColor="0x666666" size="24" fontFamily="黑体" width="182" touchEnabled="false" height="26" x="371"/>
+				<e:Label id="lbl3" y="393" textColor="0x666666" text="奖励:" fontFamily="黑体" bold="true" touchEnabled="false" size="24" x="308"/>
+				<e:Label id="lblJL" y="393" fontFamily="黑体" size="26" x="371" width="333" lineSpacing="10" touchEnabled="false" textColor="0x666666"/>
+				<e:Image id="bmpIcon" height="254" width="257" x="20" y="159"/>
+				<e:Image source="t_zc1" x="20" y="159" touchEnabled="false"/>
+				<e:Image source="t_zc6" x="390" y="218" touchEnabled="false"/>
+				<e:ProgressBar id="pro1" x="308" y="270" skinName="GiftCfProSkin" touchEnabled="false"/>
+				<e:Group id="groupBtn" height="95" width="750" x="0" y="518">
+					<e:layout>
+						<e:HorizontalLayout paddingLeft="17" gap="10"/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="groupData" width="750" x="0" y="663">
+					<e:layout>
+						<e:TileLayout horizontalGap="20" verticalGap="15" paddingLeft="15" paddingBottom="65"/>
+					</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Group id="groupEnd" width="750" x="0" y="0" visible="false">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="groupTip" height="400" width="750" x="0" y="120" visible="false">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+		<e:Label id="lbl4" text="暂无已完成众筹的礼物哦~" y="189" textColor="0x000000" fontFamily="黑体" horizontalCenter="0" touchEnabled="false"/>
+	</e:Group>
+	<e:Group y="100" height="574" width="500" horizontalCenter="0" id="groupTip3" x="10" visible="false">
+		<e:Rect right="0" bottom="0" left="0" fillAlpha="0.8" top="0"/>
+		<e:Label y="155" lineSpacing="10" text="众筹礼物成功后，全服广播，并且给明星增加大量热度" fontFamily="黑体" x="10" width="460" size="30" horizontalCenter="2" id="lbl0"/>
+		<e:Label y="283" lineSpacing="10" text="*注意*如果礼物众筹到达结束日期，并且未完成，则本次众筹失败，粉丝贡献的钻石不予退还" fontFamily="黑体" x="20" width="460" size="30" horizontalCenter="-3" id="lbl6"/>
+	</e:Group>
+	<e:Group id="group_des" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect height="1334" fillColor="0xFFFFFF" x="0" y="0" width="750"/>
+		<e:Label id="lb6" text="新版本将有更好的玩法替代众筹任务，当前版本的所有众筹任务将在12月1日0:00结束，在新版本之前完成众筹将不再开启新的众筹任务，敬请期待全新版本！" fontFamily="黑体" textColor="0x000000" height="157" width="581" horizontalCenter="0.5" verticalCenter="-44.5"/>
+	</e:Group>
+	<e:Image source="p_btnback1" y="20" x="20" id="btnClose"/>
+</e:Skin>

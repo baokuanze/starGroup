@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MonthTieSkin" width="750" height="4000" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect height="4000" width="750" x="0" y="0" fillColor="0xFFFFFF"/>
+	<e:Scroller id="scroll2" width="750" x="0" height="4000" y="0" bounces="false">
+		<e:Group height="3758">
+			<e:Image id="img_starIcon" height="510" width="750" x="0" y="0"/>
+			<e:Group id="group_heatStar" height="123" width="247" x="16" y="535">
+				<e:Image id="img_heatGray" source="gray_box" x="5" y="24" visible="false"/>
+				<e:Image id="img_heatOrange" source="orange_bg" x="5" y="24"/>
+				<e:Label id="lable_heart" text="最热明星" x="68" fontFamily="黑体" verticalCenter="-1.5" size="32"/>
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="group_StarClub" y="535" width="247" height="123" x="477">
+				<e:Image id="img_starClubOrange" source="orange_bg" y="24" x="5" visible="false"/>
+				<e:Image id="img_starClubGray" source="gray_box" y="24" x="5"/>
+				<e:Label id="lable_star" y="45" text="最佳粉丝" fontFamily="黑体" horizontalCenter="0" textAlign="center" size="32"/>
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="group_fansClub" y="535" width="247" height="123" x="246">
+				<e:Image id="img_fansClubOrange" source="orange_bg" y="24" x="5" visible="false"/>
+				<e:Image id="img_fansClubGray" source="gray_box" y="24" x="5"/>
+				<e:Label id="lable_fans" textAlign="center" y="45" text="超粉团" fontFamily="黑体" horizontalCenter="0" size="32"/>
+				<e:layout>
+					<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+			<e:Group id="group_heatStarRanking" height="2305" width="750" x="0" y="669">
+				<e:Image id="img_starIconThree" height="184" width="184" x="281" y="828"/>
+				<e:Image id="img_starIconTwo" height="184" width="184" x="280" y="462"/>
+				<e:Image id="img_starIconOne" height="234" width="234" x="255" y="34"/>
+				<e:Image id="img_bg" source="heat_star" x="0" y="20"/>
+				<e:Label id="lable_starName2" y="1060" fontFamily="黑体" horizontalCenter="0" size="36" bold="true" textColor="0x333333"/>
+				<e:Label id="lable_HeatNumberThree" y="1105" fontFamily="黑体" horizontalCenter="0.5" textColor="0x666666"/>
+				<e:Label id="lable_starName" y="329" horizontalCenter="0" fontFamily="黑体" size="36" bold="true" textColor="0x333333"/>
+				<e:Label id="lable_HeatNumberOne" y="374" fontFamily="黑体" horizontalCenter="0" textColor="0x666666"/>
+				<e:Label id="lable_starName1" y="697" fontFamily="黑体" horizontalCenter="0" size="36" bold="true" textColor="0x333333"/>
+				<e:Label id="lable_HeatNumberTwo" y="740" fontFamily="黑体" horizontalCenter="0" textColor="0x666666"/>
+				<e:Group id="group_heatDown" height="54" width="750" y="2122">
+					<e:Rect id="btn_heatDrop" height="55" width="750" x="0" y="2200" fillColor="0xEEEEEE"/>
+					<e:Image id="img_heatDrop" x="350" y="10" skewY="1" source="direction"/>
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" gap="-35"/>
+					</e:layout>
+				</e:Group>
+				<e:Group id="group_heatTable" height="891" width="750" x="0" y="1210">
+				</e:Group>
+			</e:Group>
+			<e:Group id="group_fansClubRanking" height="1895" width="750" x="0" y="669" visible="false">
+				<e:Image id="img_fansIconThree" height="113" width="113" x="132" y="636"/>
+				<e:Image id="img_fansIconTwo" height="113" width="113" x="130" y="396"/>
+				<e:Image id="img_fansIconOne" height="135" width="135" x="119" y="114"/>
+				<e:Image id="img_fansBg" source="fans_table" x="0" y="0"/>
+				<e:Label id="lable_qunName" text="XXXXX群" y="145" fontFamily="黑体" x="311" size="36" bold="true" textColor="0x333333"/>
+				<e:Label id="lable_Name" text="XXXXXXXXqun群" y="205" x="311" textColor="0x666666"/>
+				<e:Label id="lable_qunName1" y="403" text="XXXXX群" fontFamily="黑体" x="305" size="36" bold="true" textColor="0x333333"/>
+				<e:Label id="lable_Name1" x="305" y="463" text="XXXXXXXXqun群" size="30" textColor="0x666666"/>
+				<e:Label id="lable_qunName2" y="647" textColor="0x110101" text="XXXXX群" fontFamily="黑体" x="314" size="36" bold="true"/>
+				<e:Label id="lable_Name2" y="707" text="XXXXXXXXqun群" x="314" textColor="0x666666"/>
+				<e:Group id="group_fansTable" height="1010" width="750" x="0" y="882">
+				</e:Group>
+				<e:Group id="group_fansDown" height="55" width="750" x="0" y="1794">
+					<e:Rect id="btn_dropFans" height="55" width="750" x="0" y="1900" fillColor="0xEEEEEE"/>
+					<e:Image id="img_fansDrop" source="direction" x="318" y="2588"/>
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" gap="-35"/>
+					</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Group id="group_starClubRanking" width="750" y="669" height="2116" x="0" visible="false">
+				<e:Image id="img_starThree" height="196" width="196" x="94" y="765"/>
+				<e:Image id="img_starTwo" height="198" width="198" x="455" y="493"/>
+				<e:Image id="img_starOne" height="240" width="240" x="100" y="158"/>
+				<e:Image id="img_iconBg" source="star_table" x="0" y="0"/>
+				<e:Label id="lable_starClubIconOne1" y="721" text="赵丽颖" horizontalCenter="187" x="10" size="36" bold="true" textColor="0x333333"/>
+				<e:Label id="lable_starClubIconOneName1" horizontalCenter="192.5" verticalCenter="-260" text="（DDDDDDq群）" x="10" y="10" textColor="0x666666"/>
+				<e:Label id="lable_starClubIconOne2" x="20" y="988" text="赵丽颖" horizontalCenter="-177" size="36" bold="true" textColor="0x333333"/>
+				<e:Label id="lable_starClubIconOneName2" x="20" y="20" text="（DDDDDDq群）" horizontalCenter="-172.5" verticalCenter="4" textColor="0x666666"/>
+				<e:Label id="lable_starClubIconOne" text="赵丽颖" y="436" horizontalCenter="-156" size="36" bold="true" textColor="0x333333"/>
+				<e:Label id="lable_starClubIconOneName" text="（DDDDDDq群）" verticalCenter="-555" horizontalCenter="-151.5" textColor="0x666666"/>
+				<e:Group id="group_starTable" height="1051" width="750" x="0" y="1189">
+				</e:Group>
+				<e:Group id="group_starDown" height="54" width="749" y="2101">
+					<e:Rect id="btn_starDrop" height="55" width="750" x="0" y="2150" fillColor="0xEEEEEE"/>
+					<e:Image id="img_starDrop" source="direction" x="350" y="2160"/>
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" gap="-35"/>
+					</e:layout>
+				</e:Group>
+			</e:Group>
+			<e:Group id="group_monthBing" width="750" x="0" y="2940">
+				<e:Group id="group_month" width="536" x="70" y="215" touchEnabled="false">
+					<e:layout>
+						<e:VerticalLayout gap="4"/>
+					</e:layout>
+				</e:Group>
+				<e:Image source="orange_bg" y="41" horizontalCenter="0"/>
+				<e:Label id="lable_yuebang" text="月榜" y="62" fontFamily="黑体" horizontalCenter="0" size="32"/>
+				<e:Image id="btn_drop" x="607" y="250" source="drop_bg" anchorOffsetY="35"/>
+				<e:Label id="lable_Qi" fontFamily="黑体" size="36" textColor="0x333333" y="152" x="285"/>
+				<e:Image id="img_buttonImg" height="471" width="750" x="0" y="315"/>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="btn_share" source="fenxiang" x="657" y="2"/>
+	<e:Image id="btn_fanghui" source="fanhui" x="2" y="2"/>
+</e:Skin>

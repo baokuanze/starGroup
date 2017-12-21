@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Zfdy2Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect right="0" bottom="0" left="0" fillAlpha="0" top="0"/>
+	<e:Image width="748" y="593" id="bmpTextBack" horizontalCenter="0" source="zfdy_back"/>
+	<e:Label id="lblText" size="26" text="高圆圆粉丝群高圆圆粉丝群噶 送给高圆圆遮风挡雨" fontFamily="黑体" y="621" horizontalCenter="0.5"/>
+	<e:Image y="385" anchorOffsetY="149" id="bmpIcon1" anchorOffsetX="190" x="375" source="zfdy_9"/>
+	<e:Image id="bmpl1" source="zfdy_10" x="275" y="295" anchorOffsetX="30" anchorOffsetY="26" rotation="320" scaleX=".5" scaleY=".5" visible="false"/>
+	<e:Image id="bmpl2" source="zfdy_10" y="372" anchorOffsetY="26" anchorOffsetX="30" x="283" rotation="320" visible="false"/>
+	<e:Image id="bmpl3" source="zfdy_10" y="466" anchorOffsetY="26" anchorOffsetX="30" x="284" rotation="320" scaleX=".5" scaleY=".5" visible="false"/>
+	<e:Image id="bmpt1" source="zfdy_10" y="289" anchorOffsetY="26" anchorOffsetX="30" x="394" scaleX=".5" scaleY=".5" visible="false"/>
+	<e:Image id="bmpr1" source="zfdy_10" y="282" anchorOffsetY="26" anchorOffsetX="30" x="493" rotation="30" visible="false"/>
+	<e:Image id="bmpr2" source="zfdy_10" y="362" anchorOffsetY="26" anchorOffsetX="30" x="522" rotation="30" scaleX=".5" scaleY=".5" visible="false"/>
+	<e:Image id="bmpr3" source="zfdy_10" y="470" anchorOffsetY="26" anchorOffsetX="30" x="459" rotation="30" scaleY=".8" scaleX=".8" visible="false"/>
+	<e:Group width="363" y="687" horizontalCenter="0.5" height="93" id="groupHead">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="30"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

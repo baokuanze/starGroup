@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Zfdy12Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_bg" source="zc_12_1" anchorOffsetX="295" anchorOffsetY="200" horizontalCenter="293.5" verticalCenter="-88.5"/>
+	<e:Image id="img_sunlight" source="zc_12_4" x="556" y="519" anchorOffsetX="95" anchorOffsetY="95"/>
+	<e:Image id="img_snow3" source="zc_12_3" y="88" x="269" anchorOffsetX="34" anchorOffsetY="34"/>
+	<e:Image id="img_snow2" source="zc_12_3" y="235" x="161" anchorOffsetX="34" anchorOffsetY="34"/>
+	<e:Image id="img_snow1" source="zc_12_3" x="392" y="171" anchorOffsetX="34" anchorOffsetY="34"/>
+	<e:Image id="img_bottom" source="zc_12_2" x="352" y="548" anchorOffsetY="100" anchorOffsetX="269"/>
+	<e:Image source="zfdy_back" y="650" id="bmpTextBack" horizontalCenter="0" width="748" x="30"/>
+	<e:Label horizontalCenter="0.5" y="678" text="高圆圆粉丝群高圆圆粉丝群噶 送给高圆圆遮风挡雨" fontFamily="黑体" id="lblText" size="26" x="30"/>
+	<e:Group horizontalCenter="0.5" y="744" id="groupHead" width="363" height="93" x="30">
+		<e:layout>
+			<e:HorizontalLayout gap="30" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

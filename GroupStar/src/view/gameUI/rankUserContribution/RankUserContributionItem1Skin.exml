@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankUserContributionItem1Skin" width="750" height="150"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect right="0" left="0" top="0" bottom="0" y="20" fillColor="0xC098F1" x="20"/>
+	<e:Group y="39" id="groupLevel" width="70" x="406">
+		<e:Image id="bmpTitleBack" source="p_barrage_icon1" y="0" x="0"/>
+		<e:Label id="lblIntimate_Title" y="4" text="10" fontFamily="黑体" size="22" x="39"/>
+	</e:Group>
+	<e:Label id="lblRank" y="60" textColor="0xFFFFFF" text="1" fontFamily="黑体" textAlign="center" width="80" touchEnabled="false" size="32" x="12"/>
+	<e:Label touchEnabled="false" textColor="0xFFFFFF" text="大王大王" fontFamily="黑体" x="226" y="39" size="32" id="lblName"/>
+	<e:Label touchEnabled="false" textColor="0xFFFFFF" text="今日贡献 2333" fontFamily="黑体" x="226" y="87" size="26" id="lblGX"/>
+	<e:Image source="p1_gxicon1" verticalCenter="0" x="20" id="bmpRank" y="10"/>
+	<e:Image x="99" width="104" y="23" height="104" id="bmpIcon"/>
+	<e:Image y="23" x="99" source="p1_selfyuan1"/>
+</e:Skin>

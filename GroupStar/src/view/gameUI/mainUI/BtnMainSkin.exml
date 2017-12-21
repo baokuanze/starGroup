@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnMainSkin" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="95" height="130">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+	<e:Image id="iconDisplay" y="0" touchEnabled="false" source="p_xiangce" horizontalCenter="0"/>
+	<e:Label id="lblText" text="送礼" y="101" size="22" horizontalCenter="0" touchEnabled="false" fontFamily="黑体"/>
+	<e:BitmapLabel id="lblNum" y="55" font="numBottom_fnt" text="12303" horizontalCenter="0" visible="false"/>
+</e:Skin>

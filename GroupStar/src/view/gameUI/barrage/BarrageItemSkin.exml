@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BarrageItemSkin" width="450" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillAlpha="0.3" width="450" x="0" height="100" y="0" ellipseHeight="130" ellipseWidth="130" touchEnabled="false"/>
+	<e:Image id="bmpIcon" height="92" width="92" x="6" y="4" touchEnabled="false"/>
+	<e:Image id="bmpGift" x="360" y="-6" touchEnabled="false" source="p1_zhuwei"/>
+	<e:Label id="lblName" x="110" y="15" fontFamily="黑体" size="26" touchEnabled="false" height="26"/>
+	<e:Label id="lblDesc" text="热度+8" x="110" y="56" size="26" fontFamily="黑体" textColor="0xFFE71E" touchEnabled="false"/>
+	<e:BitmapLabel id="bmpNum" x="564" y="31" font="num_fnt" anchorOffsetX="50" anchorOffsetY="58" text="x23" touchEnabled="false"/>
+	<e:Group id="group_medal" height="39" x="164" y="7">
+		<e:layout>
+			<e:HorizontalLayout gap="10" verticalAlign="middle" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="UserPanelItemSkin" width="130" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bmpIcon" y="0" horizontalCenter="0" source="u_a1"/>
+	<e:Label id="lblTitle" y="131" size="22" fontFamily="黑体" horizontalCenter="0"/>
+	<e:Group id="groupStar" width="130" x="0" height="160" y="0">
+	</e:Group>
+</e:Skin>

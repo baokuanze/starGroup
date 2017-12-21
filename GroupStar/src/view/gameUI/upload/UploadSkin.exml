@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="UploadSkin" width="750" height="1492" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0xFFFFFF" left="0" right="0" top="0" bottom="0" cacheAsBitmap="true"/>
+	<e:Image id="btnBack" x="20" y="20" source="p_btnback1"/>
+	<e:Label id="lbl0" y="39" text="明星相册" fontFamily="黑体" size="34" horizontalCenter="0" textColor="0x000000"/>
+	<e:Scroller id="scroll1" height="1492" width="750" x="0" y="100" bounces="false">
+		<e:Group>
+			<e:Group id="groupLeft" height="523" width="326" x="20" y="0">
+				<e:Rect fillColor="0xFFFFFF" left="0" right="0" top="0" bottom="0" touchEnabled="false"/>
+				<e:Image id="bmpHeadImg" touchEnabled="true" x="1" y="1"/>
+				<e:Rect height="50" left="0" right="0" fillAlpha="0.2" bottom="0" touchEnabled="false"/>
+				<e:Label id="lblHot" x="12" y="483" fontFamily="黑体"/>
+				<e:Image id="btnSend" source="p_toupiao" x="239" y="481"/>
+			</e:Group>
+			<e:Group id="groupRight" height="250" width="364" x="370" y="0">
+				<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xF5ECFE"/>
+				<e:Label id="lbl1" text="当前背景上传者" y="16" horizontalCenter="0.5" fontFamily="黑体" size="26" touchEnabled="false" textColor="0x000000"/>
+				<e:Group height="36" width="298" y="167" horizontalCenter="0">
+					<e:Label id="lbl2" x="69" y="0" fontFamily="黑体" size="26" touchEnabled="false" textColor="0xF57710"/>
+					<e:Button id="btnLevel" label="10" x="201" y="0" skinName="btnLevelSkin" icon="p_barrage_icon1" scaleX=".8" scaleY=".8" touchEnabled="false"/>
+					<e:layout>
+						<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+					</e:layout>
+				</e:Group>
+				<e:Label id="lbl3" y="212" size="22" fontFamily="黑体" horizontalCenter="0" touchEnabled="false" textColor="0x000000"/>
+			</e:Group>
+			<e:Rect id="btnUpload" height="60" width="364" x="370" y="271" ellipseHeight="10" ellipseWidth="10" fillColor="0x8E56C5"/>
+			<e:Label id="lbl4" text="我要上传" x="490" y="286" fontFamily="黑体" touchEnabled="false" size="32"/>
+			<e:Label id="lbl5" text="背景上传通过审核后,由粉丝票选,票数最高者可做首页背景,每次投票消耗1钻" x="370" y="354" size="24" fontFamily="黑体" width="335" lineSpacing="5" touchEnabled="false" textColor="0x000000"/>
+			<e:Label id="lbl6" y="467" size="24" text="图片要求:竖版,质量清晰分辨率高,画面唯美精致!" fontFamily="黑体" lineSpacing="5" width="335" touchEnabled="false" x="370" textColor="0x82DCFF"/>
+			<e:Rect y="557" height="1" horizontalCenter="0" width="710" touchEnabled="false" alpha="0.2" fillColor="0xFFFFFF" x="10"/>
+			<e:Group id="groupData" height="750" width="713" x="20" y="587">
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="groupLarge" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image id="bmpLarge" x="0" y="0" touchEnabled="true"/>
+		<e:Group id="groupLargeButtom" height="100" width="750" x="0" y="1392">
+			<e:Rect fillAlpha="0.4" left="0" right="0" touchChildren="false" top="0" bottom="0" touchEnabled="false"/>
+			<e:Label id="lblLargeGroupName" text="所属群:杨颖粉丝团" x="159" y="56" fontFamily="黑体" size="26" touchEnabled="false"/>
+			<e:Label id="lblLargeName" text="隔壁杨二毛" x="159" y="20" fontFamily="黑体" size="26" touchEnabled="false"/>
+		</e:Group>
+		<e:Image source="p_close" x="645" y="16" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="groupTip" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6"/>
+		<e:Image id="bmpTX" source="p_jiazai" y="382" anchorOffsetX="50" anchorOffsetY="50" x="375"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SignInSkin" width="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+	<e:Scroller id="scroll1" width="750" height="1334" horizontalCenter="0" bounces="false" y="0">
+		<e:Group>
+			<e:Rect id="rect_continuous" height="145" width="750" x="0" y="313" fillColor="0x3ABEC0"/>
+			<e:Image id="img_conDayIcon" height="93" width="93" x="248" y="337"/>
+			<e:Image id="img_conDayIconUp" source="q_continusImg" x="245" y="334" touchEnabled="false"/>
+			<e:Rect id="rect_lyckStar" height="145" width="750" x="0" y="458" fillColor="0xFFA350"/>
+			<e:Image id="img_critIcon" height="93" width="93" x="250" y="486"/>
+			<e:Image id="img_critIconUp" source="q_cruImg" x="247" y="483" touchEnabled="false"/>
+			<e:Rect id="rect_todayStar" height="145" width="750" x="0" y="603" fillColor="0x4AD486"/>
+			<e:Image id="img_firstDayIcon" height="93" width="93" x="252" y="628"/>
+			<e:Image id="img_todayStarUp" source="q_todayImg" x="249" y="625" touchEnabled="false"/>
+			<e:Label id="lable_continuousDay" fontFamily="黑体" size="32" bold="true" x="3" y="363" width="208" textAlign="center" height="34" text="连续天数"/>
+			<e:Label id="labla_crit" text="幸运粉丝" y="518" fontFamily="黑体" size="32" bold="true" x="49"/>
+			<e:Label id="lable_firstSign" text="今日首签" y="659" horizontalCenter="-262" fontFamily="黑体" size="32" bold="true"/>
+			<e:Label id="lable_fansName1" y="345" fontFamily="黑体" x="390" size="26" bold="true" textColor="0xFFFFFF"/>
+			<e:Label id="lable_reward" x="390" y="389" fontFamily="黑体" size="26" text="奖励:+5" textColor="0xFFFFFF"/>
+			<e:Label id="lable_fansName2" y="499" fontFamily="黑体" x="390" size="26" bold="true" textColor="0xFFFFFF"/>
+			<e:Label id="lable_reward2" y="543" fontFamily="黑体" x="390" size="26" text="奖励:+30" textColor="0xFFFFFF"/>
+			<e:Label id="lable_fansName3" y="641" fontFamily="黑体" x="392" size="26" bold="true" textColor="0xFFFFFF"/>
+			<e:Label id="lable_reward3" y="686" fontFamily="黑体" x="390" size="26" text="奖励:+5" textColor="0xFFFFFF"/>
+			<e:Label id="lable_todaySignNumber" text="今日签到成员列表" y="810" horizontalCenter="0" fontFamily="黑体" textColor="0x333333" size="24"/>
+			<e:Group id="group_signPersonIcon" width="750" x="0" y="893">
+				<e:layout>
+					<e:TileLayout horizontalGap="15" verticalGap="15" paddingLeft="15" paddingRight="15" paddingBottom="15"/>
+				</e:layout>
+			</e:Group>
+			<e:Image id="btnHelp" source="t_wenhao" x="693" y="328"/>
+			<e:Image id="btn_haoZhao" source="q_zhaoHan" x="278" y="55" visible="false"/>
+			<e:Image id="btn_signIn" source="q_startSign" x="278" y="55" visible="false"/>
+			<e:Image id="img_d1" source="p_zuanshi" x="488" y="390" width="35" height="26"/>
+			<e:Image id="img_d3" source="p_zuanshi" width="35" y="689" height="26" x="488"/>
+			<e:Image id="img_d2" source="p_zuanshi" width="35" y="545" height="26" x="497"/>
+			<e:Label id="lable_signIn" text="今日签到成功！" y="40" textColor="0x12B7F5" size="36" fontFamily="黑体" horizontalCenter="0"/>
+			<e:Label id="lable_getExpAndDia" y="97" size="26" fontFamily="黑体" height="27" horizontalCenter="0" textColor="0x999999"/>
+			<e:Rect id="rect_haoZhao" height="75" width="280" y="169" ellipseHeight="10" ellipseWidth="10" fillColor="0x13B7F6" horizontalCenter="0"/>
+			<e:Label id="lable_lb1" text="号召群友" y="192" fontFamily="黑体" size="30" textColor="0xFFFFFF" touchEnabled="false" horizontalCenter="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Group y="100" height="574" width="500" horizontalCenter="0" id="groupTip1" visible="false">
+		<e:Rect right="0" bottom="0" left="0" fillAlpha="0.8" top="0"/>
+		<e:Label y="55" lineSpacing="5" text="每次签到+10钻石，本群经验+2，签到的人数越多，还有额外经验奖励。" fontFamily="黑体" width="455" size="30" horizontalCenter="0" id="lbl0"/>
+		<e:Label y="187" lineSpacing="10" text="连续签到：本群连续签到天数最多的玩家可额外获得5钻" fontFamily="黑体" width="455" horizontalCenter="0.5" size="30" id="lbl1"/>
+		<e:Label y="292" lineSpacing="10" text="幸运粉丝：每天签到有几率额外获得10钻" fontFamily="黑体" width="455" size="30" horizontalCenter="0.5" id="lbl2"/>
+		<e:Label y="394" lineSpacing="10" text="首次签到：本群当天首次签到的玩家可额外获得5钻" fontFamily="黑体" width="455" size="30" horizontalCenter="0.5" id="lbl3"/>
+	</e:Group>
+	<e:Image id="btn_back" x="20" y="20" source="hl_back"/>
+</e:Skin>

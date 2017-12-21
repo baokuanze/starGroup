@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="UserPaiseSkin" width="726" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect_push" height="70" width="70" x="643" y="1" fillColor="0xFFFFFF"/>
+	<e:Label id="lable_parise" y="20" x="30" fontFamily="黑体" textColor="0x787878" size="24"/>
+	<e:Label id="lable_pariseCount" text="0" y="20" right="82" textColor="0x00C7D9" size="24" fontFamily="黑体"/>
+	<e:Image id="img_pariseLiang" source="p1_parseLiang" x="654" y="14" touchEnabled="false" visible="false"/>
+	<e:Image id="img_pariseAn" x="654" y="14" touchEnabled="false" source="p1_parseAn"/>
+	<e:Scroller id="scroll" width="646" y="76" x="36">
+		<e:Group id="group_parisePerson" width="616">
+			<e:layout>
+				<e:HorizontalLayout gap="26"/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

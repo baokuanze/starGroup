@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="LiveTalkChatSkin" width="750" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller y="0" id="scroll1" width="750" height="250" x="0">
+		<e:Group id="groupData"/>
+	</e:Scroller>
+</e:Skin>

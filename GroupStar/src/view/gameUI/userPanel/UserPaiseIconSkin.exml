@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="UserPaiseIconSkin" width="76" height="76" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_paiseIcon" height="76" width="76" x="0" y="0"/>
+	<e:Image id="img_button" source="p1_yuan" x="0" y="0"/>
+	<e:Rect height="3" width="76" x="0" y="-2" fillColor="0xFFFFFF"/>
+	<e:Rect fillColor="0xFFFFFF" width="76" y="74" height="3" x="0"/>
+</e:Skin>

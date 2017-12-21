@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GroupRewardSkin" width="726" height="966" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="p1_jl1" x="0" y="0"/>
+	<e:Label id="lbl1" text="每日群主奖励" y="35" horizontalCenter="0" fontFamily="黑体" size="36"/>
+	<e:Rect id="btnClose" height="55" width="77" x="637" y="15" fillAlpha="0"/>
+	<e:Image source="p_x" x="665" y="28" touchEnabled="false"/>
+	<e:Image source="p1_jl2" y="104" x="308"/>
+	<e:Image id="btn1" source="p1_jl4" x="227" y="699"/>
+	<e:Label id="lbl2" text="1580" y="228" fontFamily="黑体" horizontalCenter="0" size="36" bold="true"/>
+	<e:Label id="lbl3" text="本群昨日活跃" x="60" y="360" fontFamily="黑体" textColor="0x9244DB"/>
+	<e:Label id="lbl4" y="405" textColor="0x9244DB" text="每日签到:" fontFamily="黑体" x="60"/>
+	<e:Label id="lbl5" y="450" textColor="0x9244DB" text="集结成功:" fontFamily="黑体" x="60"/>
+	<e:Label id="lbl6" y="495" textColor="0x9244DB" text="完成众筹:" fontFamily="黑体" x="60"/>
+	<e:Label id="lbl8" text="加入超级粉丝团官方q群,及时了解最新动态" y="808" size="26" fontFamily="黑体" textColor="0x666666" horizontalCenter="0"/>
+	<e:Label id="lbl9" y="863" textColor="0x13B7F6" horizontalCenter="0" text="群号:201758241" fontFamily="黑体" x="10"/>
+	<e:Label id="lable_RechargeCord" x="60" y="544" fontFamily="黑体" textColor="0x9244DB" text="昨日充值:"/>
+	<e:Group id="group1" height="33" width="726" x="0" y="917" visible="false">
+		<e:Label id="lbl10" text="加入超级粉丝团官方Q群" y="0" horizontalCenter="0" fontFamily="黑体" textColor="0x13B7F6"/>
+		<e:Rect height="1" width="310" y="30" horizontalCenter="0" fillColor="0x13B7F6"/>
+	</e:Group>
+	<e:Group id="group2" height="75" width="281" x="227" y="698">
+		<e:Image source="p1_jl3" x="0" y="0"/>
+		<e:Label id="lbl7" text="领取奖励" x="0" y="23" fontFamily="黑体" width="274" textAlign="center" touchEnabled="false"/>
+	</e:Group>
+	<e:Image id="bmpTX" source="p1_jltx1" x="308" y="104"/>
+</e:Skin>

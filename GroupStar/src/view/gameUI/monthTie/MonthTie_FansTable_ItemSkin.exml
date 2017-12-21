@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MonthTie_FansTable_ItemSkin" width="750" height="130"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_starIcon" height="72" width="72" x="88" verticalCenter="2"/>
+	<e:Image id="img_grayBg" source="fans_grayTable_Item" x="0" y="0" visible="false"/>
+	<e:Image id="img_whiteBg" source="fans_orangeTable_Item" x="0" y="0"/>
+	<e:Label id="lable_fansNumber" horizontalCenter="-334.5" verticalCenter="0" fontFamily="黑体" textColor="0xAAAAAA"/>
+	<e:Label id="lable_fansClubName" verticalCenter="0" x="201" fontFamily="黑体" bold="true" textColor="0x333333"/>
+	<e:Label id="lable_fansName" verticalCenter="0" x="583" fontFamily="黑体" size="26" textColor="0xAAAAAA"/>
+</e:Skin>

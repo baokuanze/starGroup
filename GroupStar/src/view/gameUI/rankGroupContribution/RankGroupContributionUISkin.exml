@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankGroupContributionUISkin" width="750" height="1334"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect cacheAsBitmap="true" fillColor="0xFFFFFF" left="0" right="0" top="0" bottom="0"/>
+	<e:Rect width="710" horizontalCenter="0" height="1" fillColor="0xDCDCDC" x="10" y="99"/>
+	<e:Label y="29" textColor="0x000000" text="本月群贡献榜" fontFamily="黑体" size="34" horizontalCenter="0" id="txt1"/>
+	<e:Image source="p_btnback1" y="20" x="20" id="btnClose"/>
+	<e:Scroller id="scroll1" width="750" height="1000" x="0" y="100">
+		<e:Group id="groupData">
+		</e:Group>
+	</e:Scroller>
+	<e:Group id="groupBottom" height="152" width="750" x="0" y="1123" visible="false">
+	</e:Group>
+</e:Skin>

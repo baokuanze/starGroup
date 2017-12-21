@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HostManagementSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+	<e:Rect id="rect_manager" height="62" width="187" x="513" y="109" fillColor="0xFFFFFF" visible="false"/>
+	<e:Rect id="rect_audit" height="59" width="213" x="268" y="117" fillColor="0xFFFFFF" visible="false"/>
+	<e:Rect id="rect_push" height="61" width="183" x="50" y="116" fillColor="0xFFFFFF" visible="false"/>
+	<e:Image id="btn_back" height="63" width="63" x="20" y="20" source="p_btnback1"/>
+	<e:Label id="lable_taskManagement" y="40" horizontalCenter="0" textColor="0x333333" fontFamily="黑体"/>
+	<e:Label id="lable_Publish" text="发布" x="111" y="135" size="26" fontFamily="黑体" textColor="0x13B7F6" touchEnabled="false" visible="false"/>
+	<e:Label id="lable_audit" text="审阅" x="342" y="135" textColor="0x333333" fontFamily="黑体" size="26" touchEnabled="false" visible="false"/>
+	<e:Label id="lable_management" text="管理" x="582" y="135" textColor="0x333333" size="26" fontFamily="黑体" touchEnabled="false" visible="false"/>
+	<e:Image source="gm_Vertical" x="245" y="130" visible="false"/>
+	<e:Image source="gm_Vertical" x="500" y="130" visible="false"/>
+	<e:Image id="img_jt" source="gm_jt" x="67" y="180" visible="false"/>
+	<e:Group id="group_push" width="750" y="104" x="0"/>
+	<e:Group id="group_manageInfo" width="750" y="104" x="0" visible="false"/>
+	<e:Group id="group_audit" width="750" y="104" x="0" visible="false"/>
+	<e:Group id="group_manager" x="0" width="750" y="104" visible="false"/>
+</e:Skin>

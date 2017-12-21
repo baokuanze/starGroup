@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Zfdy8Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_bg8" source="zc8_5" y="400" anchorOffsetX="319.5" anchorOffsetY="272" x="375"/>
+	<e:Image id="img_leftWineGlass" source="zc8_2" x="-268" y="294" rotation="0"/>
+	<e:Image id="img_rightWineGlass" source="zc8_3" x="803" y="294" rotation="0"/>
+	<e:Image id="img_star" source="zc8_4" x="370" y="342" anchorOffsetX="43" anchorOffsetY="43"/>
+	<e:Image source="zc8_4" y="405" anchorOffsetY="43" anchorOffsetX="43" x="227" id="img_star1"/>
+	<e:Image source="zfdy_back" y="611" horizontalCenter="0" width="748" x="20" id="bmpTextBack"/>
+	<e:Label id="lblText" y="639" text="高圆圆粉丝群高圆圆粉丝群噶 送给高圆圆遮风挡雨" fontFamily="黑体" horizontalCenter="0.5" size="26" x="20"/>
+	<e:Group y="705" id="groupHead" horizontalCenter="0.5" width="363" height="93" x="20">
+		<e:layout>
+			<e:HorizontalLayout gap="30" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+	<e:ProgressBar id="pro" y="332" skinName="Zfdy81Skin" direction="ltr" horizontalCenter="0" value="0"/>
+	<e:Image source="zc8_4" y="320" anchorOffsetY="43" x="512" anchorOffsetX="43" id="img_star2"/>
+</e:Skin>

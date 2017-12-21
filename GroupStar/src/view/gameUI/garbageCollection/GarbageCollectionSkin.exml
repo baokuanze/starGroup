@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GarbageCollectionSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x2C2D3F" touchEnabled="false"/>
+	<e:Image id="img_bg" left="0" right="0" top="0" bottom="0" touchEnabled="false"/>
+	<e:Scroller id="scro" width="750" x="0" y="0" height="1334" bounces="false">
+		<e:Group id="group_data">
+			<e:Image id="img_ico" height="144" width="144" y="45" x="303" touchEnabled="false"/>
+			<e:Rect height="1" width="690" x="30" y="235" fillColor="0x999999" touchEnabled="false"/>
+			<e:Rect height="1" width="690" x="30" y="340" fillColor="0x999999" touchEnabled="false"/>
+			<e:Label id="lable_title" y="258" horizontalCenter="0" size="28" fontFamily="黑体" touchEnabled="false"/>
+			<e:Label id="lable_dis" y="304" size="22" fontFamily="黑体" horizontalCenter="0" x="10" text="助威有几率点亮作品" textColor="0x999999" touchEnabled="false"/>
+			<e:Group id="group_music" width="690" y="428" x="30" touchEnabled="false" visible="false">
+				<e:Image id="img_music" width="99" y="0" horizontalCenter="0.5" height="99" source="gc_music"/>
+				<e:Label id="lable_number" y="126" horizontalCenter="0" fontFamily="黑体" size="22" textColor="0x999999" text="22/300"/>
+				<e:Group id="group_musicItem" width="690" y="189">
+				</e:Group>
+				<e:Group id="groupkMoreMusic" height="84" width="200" x="245" y="192" visible="false">
+					<e:Label id="lable_lookMoreMusic" text="查看更多" y="20" horizontalCenter="0" fontFamily="黑体" textColor="0x999999" size="22" height="24"/>
+					<e:Image height="20" width="20" x="157" y="21" source="img_heatDrop"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="group_TV" width="690" y="428" x="30" touchEnabled="false" visible="false">
+				<e:Image id="img_tv" width="99" y="0" height="99" horizontalCenter="0" source="gc_tv"/>
+				<e:Label id="lable_TvNumber" y="126" textColor="0x999999" fontFamily="黑体" size="22" horizontalCenter="0"/>
+				<e:Group id="group_TvItem" width="690" y="189"/>
+				<e:Group id="groupkMoreTv" y="192" x="245" width="200" height="81" visible="false">
+					<e:Label id="lable_lookMoreTv" y="20" textColor="0x999999" size="22" text="查看更多" fontFamily="黑体" horizontalCenter="0" height="24"/>
+					<e:Image source="img_heatDrop" width="20" y="21" height="20" x="157"/>
+				</e:Group>
+			</e:Group>
+			<e:Group id="group_Movie" width="690" y="428" x="30" touchEnabled="false" visible="false">
+				<e:Image id="img_Movie" y="0" horizontalCenter="0" width="99" height="99" source="gc_movie"/>
+				<e:Label id="lable_MovieNumber" y="126" textColor="0x999999" fontFamily="黑体" size="22" horizontalCenter="0"/>
+				<e:Group id="group_MovieItem" width="690" y="189">
+				</e:Group>
+				<e:Group id="groupkMoreMovie" y="192" x="245" width="200" height="83" visible="false">
+					<e:Label id="lable_lookMoreMovie" y="20" textColor="0x999999" height="24" text="查看更多" fontFamily="黑体" horizontalCenter="0" size="22"/>
+					<e:Image source="img_heatDrop" width="20" y="21" height="20" x="157"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+	<e:Image source="p_fx" y="44" x="677" id="btn_Fx" visible="false"/>
+	<e:Image source="p_btnback1" y="30" x="30" id="btnClose"/>
+	<e:Label id="lable_NoWorks" text="当前还没有点亮的作品哦！" horizontalCenter="0" verticalCenter="0" fontFamily="黑体" size="38" visible="false"/>
+</e:Skin>

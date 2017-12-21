@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GroupManagementItemSkin" width="750" height="108" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="btn_nextScreen" height="95" width="733" x="13" y="6" fillColor="0xFFFFFF"/>
+	<e:Label id="lable_managementTitle" text="部落签到" x="40" verticalCenter="0" textColor="0x333333" fontFamily="黑体" touchEnabled="false"/>
+	<e:Rect height="2" width="710" x="40" y="106" fillColor="0x999999"/>
+	<e:Image source="gm_left" x="701" verticalCenter="0" touchEnabled="false"/>
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FollowSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="750" y="0" height="1334" fillAlpha="0.2" x="0"/>
+	<e:Image id="img_btnFllower" source="t_fllower" y="286" x="105"/>
+	<e:Image id="img_btnClose" source="t_close" y="301" x="595"/>
+</e:Skin>

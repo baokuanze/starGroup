@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="alertPanelSkin" width="565" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" ellipseHeight="20" ellipseWidth="20" height="250" fillColor="0xFFFFFF"/>
+	<e:Label id="lblTitle" text="温馨提示" y="27" textColor="0x000000" horizontalCenter="0.5" size="36" fontFamily="黑体"/>
+	<e:Label id="lblDesc" text="幸运星不足 请充值" y="93" fontFamily="黑体" size="27" textColor="0x000000" horizontalCenter="0.5"/>
+	<e:Rect height="1" width="565" y="160" x="0" strokeAlpha="1" fillAlpha="0.5" fillColor="0xD7D7DA"/>
+	<e:Rect height="95" width="1" y="160" horizontalCenter="0" fillAlpha="0.5" fillColor="0xD7D7DA"/>
+	<e:Rect id="btn1" height="89" width="278" x="2" y="161" fillColor="0xFFFFFF"/>
+	<e:Rect id="btn2" width="278" height="88" fillColor="0xFFFFFF" x="285" bottom="0"/>
+	<e:Label id="lbl1" text="取消" x="106" y="188" fontFamily="黑体" touchEnabled="false" textColor="0x08A8E1"/>
+	<e:Label id="lbl2" text="确认" x="391" y="188" fontFamily="黑体" touchEnabled="false" textColor="0x08A8E1"/>
+</e:Skin>

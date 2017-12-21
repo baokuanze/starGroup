@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Zfdy10Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_bg" source="zc_10_1" x="373" y="331" anchorOffsetX="280" anchorOffsetY="280"/>
+	<e:Image horizontalCenter="0" width="748" y="603" source="zfdy_back" id="bmpTextBack" x="10"/>
+	<e:Label horizontalCenter="0.5" y="631" text="高圆圆粉丝群高圆圆粉丝群噶 送给高圆圆遮风挡雨" fontFamily="黑体" size="26" id="lblText" x="10"/>
+	<e:Group horizontalCenter="0.5" y="697" width="363" height="93" id="groupHead" x="10">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="30"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group_rabit" height="436" width="646" x="667" y="93">
+		<e:Image id="img_rabbit1" source="zc_10_2" x="156" y="345" width="68" height="102" anchorOffsetX="34" anchorOffsetY="102"/>
+		<e:Image id="img_rabbit2" source="zc_10_2" width="134" y="261" height="202" x="309" anchorOffsetX="67" anchorOffsetY="202"/>
+		<e:Image id="img_rabbit3" source="zc_10_2" width="102" y="330" height="154" x="491" anchorOffsetX="51" anchorOffsetY="154"/>
+		<e:Image source="zc_10_3" x="106" y="312" width="134" height="83"/>
+		<e:Image source="zc_10_3" width="160" y="284" height="99" x="424"/>
+		<e:Image source="zc_10_3" width="203" y="197" height="126" x="234"/>
+	</e:Group>
+</e:Skin>

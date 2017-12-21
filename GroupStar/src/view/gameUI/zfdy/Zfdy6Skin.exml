@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Zfdy6Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillAlpha="0" x="0" y="0"/>
+	<e:Image source="zfdy_back" horizontalCenter="0" y="593" width="748" id="bmpTextBack"/>
+	<e:Label y="621" text="高圆圆粉丝群高圆圆粉丝群噶 送给高圆圆遮风挡雨" fontFamily="黑体" horizontalCenter="0" size="26" id="lblText"/>
+	<e:Image y="560" x="375" anchorOffsetX="295" anchorOffsetY="500" id="bmpIcon1" source="zfdy_17"/>
+	<e:Image id="bmpIcon2" source="zfdy_18" x="186" y="201"/>
+	<e:Image id="bmpIcon3" source="zfdy_19" x="162" y="500" anchorOffsetX="43" anchorOffsetY="44"/>
+	<e:Image id="bmpIcon4" source="zfdy_19" y="500" x="581" anchorOffsetX="43" anchorOffsetY="44"/>
+	<e:Group horizontalCenter="0" y="687" width="363" height="93" id="groupHead">
+		<e:layout>
+			<e:HorizontalLayout gap="30" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="BtnBuluoSkin" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="72" height="100">
+	<e:Image source="p_buluo" x="0" y="0" touchEnabled="false"/>
+	<e:Label id="lbltxt1" y="80" fontFamily="黑体" touchEnabled="false" size="18" x="19" textColor="0x000000"/>
+	<e:Label id="lbltxt" y="79" touchEnabled="false" size="18" fontFamily="黑体" horizontalCenter="0"/>
+</e:Skin>

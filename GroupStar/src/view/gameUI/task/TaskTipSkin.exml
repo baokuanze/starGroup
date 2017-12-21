@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TaskTipSkin" width="346" height="144" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" ellipseHeight="10" ellipseWidth="10"/>
+	<e:Label id="lbl1" text="签到成功" y="25" horizontalCenter="0" touchEnabled="false" fontFamily="黑体"/>
+	<e:Label id="lbl2" y="66" text="钻石+10" horizontalCenter="0.5" x="10" fontFamily="黑体" size="26"/>
+	<e:Label y="103" size="26" text="本群经验+2" fontFamily="黑体" x="20" horizontalCenter="0" id="lbl0"/>
+</e:Skin>

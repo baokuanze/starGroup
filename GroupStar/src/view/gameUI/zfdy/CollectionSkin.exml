@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CollectionSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_bg" source="gc_BigBg" y="48" horizontalCenter="0.5"/>
+	<e:Image id="img_Icon" height="120" width="154" y="-59" horizontalCenter="0"/>
+	<e:Label id="lable_starNameWork" y="70" horizontalCenter="0" fontFamily="黑体" size="22"/>
+	<e:Label id="lable_work" y="137" horizontalCenter="4" fontFamily="黑体" size="32"/>
+</e:Skin>

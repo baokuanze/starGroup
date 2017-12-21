@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="HeadLinesItemSkin" width="750" height="613" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect_next" width="750" y="-1" height="603" x="0" fillColor="0xFFFFFF"/>
+	<e:Label id="lable_title" x="80" y="37" fontFamily="黑体" maxHeight="135" size="32" width="480" height="32" lineSpacing="12" touchEnabled="false" textColor="0x070707"/>
+	<e:Label id="lable_count" y="548" fontFamily="黑体" size="26" touchEnabled="false" text="票数：2010" textColor="0xB4B4B4" right="208"/>
+	<e:Image id="img_icon" height="68" width="68" x="25" y="530" visible="false"/>
+	<e:Image id="img_pic" width="698" y="92" height="410" x="26" touchEnabled="false"/>
+	<e:Image x="25" y="524" touchEnabled="false" width="68" height="68" source="hl_smallYuan" visible="false"/>
+	<e:Rect id="rect_btnDing" height="72" width="185" x="557" y="520" fillColor="0xFFFFFF"/>
+	<e:Image id="btn_ding" source="hl_ding" x="589" y="539" touchEnabled="false"/>
+	<e:Image id="img_typeIcon" height="40" width="40" x="26" y="34"/>
+	<e:Label id="lable_type" x="83" y="40" textColor="0xB4B4B4" fontFamily="黑体" size="26" visible="false"/>
+	<e:BitmapLabel id="lable_Bitrank" y="41" right="30" font="headLinesNumber_fnt"/>
+	<e:Image id="img_rank" height="25" width="78" x="646" y="41"/>
+	<e:Group id="group_starIcon" x="26" y="525">
+		<e:layout>
+			<e:HorizontalLayout gap="10"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

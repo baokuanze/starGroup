@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="part1Skin" width="692" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="692" y="0" x="0">
+		<e:Label id="lb4" y="288" height="76" text="*针对亲们深恶痛绝的、让我们也蓝瘦香菇的各种问题，也将在新版中一并被消灭殆尽！" fontFamily="黑体" width="640" lineSpacing="10" size="26" x="35" textColor="0x36A1FF"/>
+		<e:Label id="lb3" y="129" lineSpacing="10" text="新版本增加了基于地理位置的炫酷应援模式，不管你在天南或者海北，甚至身在火星，你的每一次对爱豆的支持都会在地图上展现。相信爱豆在全球粉丝的鼎力支持下，定会持续霸榜！" fontFamily="黑体" width="629" height="154" size="26" x="35" textColor="0x666666"/>
+		<e:Label id="lb2" y="51" textColor="0x36A1FF" lineSpacing="10" text="QQ群应用-《超级粉丝团》全新版本将于12月1日12:00正式发布啦！" fontFamily="黑体" width="618" height="71" size="26" x="35"/>
+		<e:Label id="lb1" y="0" textColor="0x666666" text="各位亲：" fontFamily="黑体" size="30" x="33"/>
+		<e:Label id="lb5" y="369" textColor="0x666666" text="你将体验到：" fontFamily="黑体" x="33" size="30"/>
+		<e:Label id="lb6" y="419" textColor="0x666666" text="1.极速载入，轻松耐玩" fontFamily="黑体" size="26" x="33"/>
+		<e:Label y="465" textColor="0x666666" text="2.根据地理位置统计出最专业权威的星榜" fontFamily="黑体" x="33" size="26" id="lb0"/>
+		<e:Label y="511" textColor="0x666666" text="3.基于LBS（地理位置）玩法为主的应援模式" fontFamily="黑体" id="lb7" size="26" x="33"/>
+		<e:Label y="587" text="*由于应用进行全新改版，原有钻石货币将在新版开放后保留到12月6日上午10:00，过期后钻石将不能使用，请大家注意。" fontFamily="黑体" id="lb8" size="26" x="33" width="629" height="119" lineSpacing="10" textColor="0x36A1FF"/>
+		<e:Label y="713" height="116" text="*新版本将有更好的玩法替代众筹任务，当前版本的所有众筹任务将在12月1日00:00结束，完成众筹将不再开启新的众筹任务。" fontFamily="黑体" x="32" width="623" size="26" lineSpacing="10" id="lb10" textColor="0x36A1FF"/>
+		<e:Label y="834" height="71" text="*新版更新将在12月1日0:00开始，届时进不去的亲请耐心等候，预计会在12月1日12:00正式上线！" fontFamily="黑体" x="33" width="623" size="26" lineSpacing="10" id="lb12" textColor="0x666666"/>
+		<e:Label y="925" size="26" text="超级粉丝团，2016全新改版，千万粉丝，千万有你……" fontFamily="黑体" id="lb13" width="623" height="72" lineSpacing="10" x="33" textColor="0x666666"/>
+	</e:Group>
+</e:Skin>

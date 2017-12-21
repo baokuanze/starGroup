@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GiftCfItem1Skin" width="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0xFFFFFF" left="0" right="0" top="0" height="190"/>
+	<e:Image id="bmpIcon" height="138" width="138" x="33" y="27" touchEnabled="false"/>
+	<e:Image source="t_zc1" x="25" scaleX="0.6" scaleY="0.6" touchEnabled="false" y="19"/>
+	<e:Label id="lblTitle" text="明星专属金话筒" x="195" y="39" textColor="0x333333" fontFamily="黑体" bold="true" touchEnabled="false"/>
+	<e:Label id="lbl1" text="目标:" x="195" y="87" size="24" bold="true" textColor="0x666666" touchEnabled="false" fontFamily="黑体"/>
+	<e:Label id="lblGX" y="87" text="贡献120颗钻石" fontFamily="黑体" touchEnabled="false" size="24" x="258" width="182" height="26" textColor="0x666666"/>
+	<e:Label id="lbl2" y="128" textColor="0x666666" size="24" text="参与人数:" fontFamily="黑体" touchEnabled="false" height="26" x="195" bold="true"/>
+	<e:Label id="lblNum" y="128" text="100" fontFamily="黑体" touchEnabled="false" size="24" x="304" textColor="0x666666" height="26"/>
+	<e:Rect id="rectCon" height="48" width="64" x="660" y="81" fillColor="0xFFFFFF"/>
+	<e:Image id="bmpCon" source="direction" x="682" y="106" anchorOffsetY="6" touchEnabled="false"/>
+	<e:Group id="groupData" width="750" x="0" y="191">
+		<e:layout>
+			<e:TileLayout horizontalGap="20" verticalGap="15" paddingLeft="15" paddingTop="40"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

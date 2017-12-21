@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SweepsTasksSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_bg" source="zp_buttom_jpg" y="-1" horizontalCenter="0"/>
+	<e:Image id="img_sweeps" source="zp_bg" x="87" y="379"/>
+	<e:Image id="btn_close" source="zp_close" x="652" y="39"/>
+	<e:Group id="btn_arrow" y="538" x="302">
+		<e:Image id="img_arrow" source="zp_arrow" x="0" y="0"/>
+		<e:Group id="group_free" x="19" y="80" visible="false">
+			<e:Label id="lb1" text="免费" y="23" size="26" fontFamily="黑体" horizontalCenter="-1.5"/>
+			<e:Label id="lb2" y="58" text="抽取一次" size="26" fontFamily="黑体" horizontalCenter="0.5"/>
+		</e:Group>
+		<e:Group id="group_diamond" verticalCenter="28" horizontalCenter="0" visible="false">
+			<e:Label id="lb3" y="0" text="10钻/次" fontFamily="黑体" size="26" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_result" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.5" fillColor="0x090000"/>
+		<e:Group id="group_resultBg" height="459" width="600" x="75" y="264">
+			<e:Image id="img_resultBg" source="sw_result_bg" horizontalCenter="0" y="58"/>
+			<e:Image id="img_result_top" source="sw_result_top" horizontalCenter="0.5" visible="false"/>
+			<e:Label id="lb4" y="170" width="482" height="77" fontFamily="黑体" horizontalCenter="0" textAlign="center"/>
+			<e:Label id="lb5" y="270" fontFamily="黑体" horizontalCenter="0.5"/>
+			<e:Rect id="rect_btn_sure" height="49" width="203" y="343" horizontalCenter="0" fillColor="0xFFBD3E" ellipseHeight="10" ellipseWidth="10"/>
+			<e:Label id="lb6" text="确定" y="353" fontFamily="黑体" size="26" horizontalCenter="0" textColor="0xB9462F" touchEnabled="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_share" height="72" width="443" y="1142" x="154">
+		<e:Rect id="btn_share" height="70" width="404" y="0" horizontalCenter="0" ellipseHeight="20" ellipseWidth="20" fillColor="0x14A2CA"/>
+		<e:Label id="lb7" text="分享" y="16" fontFamily="黑体" horizontalCenter="0.5" touchEnabled="false" textColor="0xFFFFFF" size="36"/>
+	</e:Group>
+</e:Skin>

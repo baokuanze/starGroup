@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankGroupItemSkin" width="750" height="125" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+	<e:Label touchEnabled="false" textColor="0x000000" text="1" fontFamily="黑体" x="12" y="50" size="28" id="lblRank" textAlign="center" width="70"/>
+	<e:Label touchEnabled="false" textColor="0x020202" text="赵丽颖粉丝群" fontFamily="黑体" id="lblName" y="29" size="28" x="202"/>
+	<e:Group height="37" width="399" x="202" y="70">
+		<e:Label id="lblMember" y="83" touchEnabled="false" fontFamily="黑体" x="312" size="24" text="500人" textColor="0x000000"/>
+		<e:Label touchEnabled="false" textColor="0x979797" text="今日贡献 2333" fontFamily="黑体" x="302" y="73" size="24" id="lblGX"/>
+		<e:layout>
+			<e:HorizontalLayout gap="15"/>
+		</e:layout>
+	</e:Group>
+	<e:Rect horizontalCenter="0" bottom="0" width="710" height="1" fillColor="0xDCDCDC"/>
+	<e:Image id="bmpRank" source="p1_gxicon1" x="20" verticalCenter="0" visible="false"/>
+	<e:Image id="bmpIcon" x="88" y="18" width="90" height="90" touchEnabled="false"/>
+	<e:Image source="p1_gxy1" y="18" x="88" touchEnabled="false"/>
+	<e:Image id="btnJoin" source="p1_join" y="43" x="652"/>
+</e:Skin>

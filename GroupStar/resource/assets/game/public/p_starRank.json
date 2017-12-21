@@ -1,0 +1,7 @@
+{"file":"p_starRank.png","frames":{
+"sr_bigYuan":{"x":0,"y":0,"w":190,"h":190,"offX":0,"offY":0,"sourceW":190,"sourceH":190},
+"sr_heat":{"x":192,"y":0,"w":23,"h":26,"offX":0,"offY":0,"sourceW":23,"sourceH":26},
+"sr_buLuo":{"x":124,"y":192,"w":106,"h":106,"offX":0,"offY":0,"sourceW":106,"sourceH":106},
+"sr_pic":{"x":124,"y":300,"w":106,"h":106,"offX":0,"offY":0,"sourceW":106,"sourceH":106},
+"sr_smallYuan":{"x":0,"y":192,"w":122,"h":122,"offX":0,"offY":0,"sourceW":122,"sourceH":122},
+"sr_yuan":{"x":0,"y":316,"w":64,"h":65,"offX":0,"offY":0,"sourceW":64,"sourceH":65}}}

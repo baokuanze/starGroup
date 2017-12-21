@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PayUISkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="p_uiback" height="1334"/>
+	<e:Label id="lbl1" text="钻石充值" y="29" horizontalCenter="0" size="34" fontFamily="黑体" textColor="0xDCCD28" bold="true"/>
+	<e:Image id="btnClose" x="20" y="20" source="p_btnback"/>
+	<e:Image y="99" horizontalCenter="0" height="75" source="p_uiitemback"/>
+	<e:Label id="lbl2" text="我的钻石:" x="52" y="123" fontFamily="黑体" size="26"/>
+	<e:Label id="lblStar" x="178" y="123" size="26" textColor="0xDCCD28"/>
+	<e:Image y="200" height="125" x="21" source="p_uiitemback"/>
+	<e:Image x="58" y="238" source="p_zuanshi"/>
+	<e:Label id="lbl3" text="10个" x="160" y="243" fontFamily="黑体" size="36"/>
+	<e:Button id="btn1" label="￥1" x="577" y="232" skinName="PayBtnSkin"/>
+	<e:Image y="331" height="125" x="21" source="p_uiitemback"/>
+	<e:Image y="369" x="58" source="p_zuanshi"/>
+	<e:Label id="lbl5" y="376" text="60个" fontFamily="黑体" x="160" size="36"/>
+	<e:Button id="btn2" y="363" label="￥6" skinName="PayBtnSkin" x="577"/>
+	<e:Image y="462" height="125" x="21" source="p_uiitemback"/>
+	<e:Image y="501" x="58" source="p_zuanshi"/>
+	<e:Label id="lbl7" y="505" text="300个" fontFamily="黑体" x="160" size="36"/>
+	<e:Label id="lbl8" y="511" textColor="0xDCCD28" text="首次购买附赠300个" fontFamily="黑体" size="24" x="282"/>
+	<e:Label id="lbl4" y="250" text="首次购买附赠10个" fontFamily="黑体" x="282" size="24" textColor="0xDCCD28"/>
+	<e:Label id="lbl6" y="381" textColor="0xDCCD28" text="首次购买附赠60个" fontFamily="黑体" size="24" x="282"/>
+	<e:Button id="btn3" y="494" label="￥30" skinName="PayBtnSkin" x="577"/>
+	<e:Image y="593" height="125" x="21" source="p_uiitemback"/>
+	<e:Image y="630" x="58" source="p_zuanshi"/>
+	<e:Label id="lbl9" y="637" text="1880个" fontFamily="黑体" x="160" size="36"/>
+	<e:Label id="lbl10" y="642" textColor="0xDCCD28" text="首次购买附赠1880个" fontFamily="黑体" size="24" x="282"/>
+	<e:Button id="btn4" y="625" label="￥188" skinName="PayBtnSkin" x="577"/>
+	<e:Image y="724" height="125" x="21" source="p_uiitemback"/>
+	<e:Image y="762" x="58" source="p_zuanshi"/>
+	<e:Label id="lbl11" y="768" text="3880个" fontFamily="黑体" x="160" size="36"/>
+	<e:Label id="lbl12" y="774" textColor="0xDCCD28" text="首次购买附赠3880个" fontFamily="黑体" size="24" x="282"/>
+	<e:Button id="btn5" y="756" label="￥388" skinName="PayBtnSkin" x="577"/>
+	<e:Group id="group_canBuyLoveGift" height="147" width="707" x="18" y="846" touchEnabled="false" visible="false">
+		<e:Image source="u_libao" x="39" touchEnabled="false" verticalCenter="0"/>
+		<e:Label id="lable_love" text="真爱礼包" x="144" fontFamily="黑体" size="36" touchEnabled="false" verticalCenter="0.5"/>
+		<e:Label id="lable_loveDsc" text="本群福利1元30钻" x="315" fontFamily="黑体" textColor="0xDCCD28" size="24" touchEnabled="false" verticalCenter="0.5"/>
+		<e:Button id="btn8" x="560" label="￥1" skinName="PayBtnSkin" verticalCenter="0"/>
+		<e:Image source="p_uiitemback" y="1" height="125" x="0" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="groupIOS" height="300" width="720" y="364" horizontalCenter="0" visible="false">
+		<e:Rect fillColor="0xFFFFFF" left="0" right="0" top="0" bottom="0" ellipseHeight="20" ellipseWidth="20"/>
+		<e:Label id="lblIOSID" text="用户ID:" y="56" textColor="0x000000" horizontalCenter="0.5" fontFamily="黑体"/>
+		<e:Label id="lbl13" y="137" textColor="0x000000" text="IOS暂未开放在线充值" horizontalCenter="-6.5" fontFamily="黑体" x="10" size="26"/>
+		<e:Label id="lbl14" y="185" textColor="0x000000" text="人工充值请联系客服" fontFamily="黑体" x="155" size="26"/>
+		<e:Label id="lbl15" y="185" text="QQ:3413163866" fontFamily="黑体" size="26" x="395" textColor="0x2292DD"/>
+		<e:Image id="btnCloseTip" x="663" y="6" source="pay_close"/>
+	</e:Group>
+	<e:Label id="lable_uid" x="582" y="123" fontFamily="黑体"/>
+	<e:Label id="lable_des" text="充值有问题请联系QQ：3413163866" y="1024" horizontalCenter="0" fontFamily="黑体" visible="false"/>
+</e:Skin>

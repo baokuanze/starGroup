@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StarFansTVItemSkin" width="730" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bmpBack" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="btnPlay" source="xftv_2" y="132" horizontalCenter="0.5"/>
+	<e:Image source="xftv_3" x="0" y="0"/>
+	<e:Label id="lblTime" text="2016-05-06" x="6" y="5" size="26" touchEnabled="false" fontFamily="黑体"/>
+	<e:Rect height="55" width="730" x="0" fillAlpha="0.4" bottom="0"/>
+	<e:Image source="xftv_4" x="10" y="353"/>
+	<e:Label id="lblTitle" text="Angelababy电影&lt;太极&gt;新闻发布会现场" x="62" y="357" fontFamily="黑体" touchEnabled="false"/>
+</e:Skin>

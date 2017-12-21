@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Zfdy11Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_bg" source="zc_11_1" x="375" y="392" anchorOffsetX="375" anchorOffsetY="334"/>
+	<e:Image source="zfdy_back" y="640" horizontalCenter="0" id="bmpTextBack" width="748" x="20"/>
+	<e:Label y="668" text="高圆圆粉丝群高圆圆粉丝群噶 送给高圆圆遮风挡雨" fontFamily="黑体" id="lblText" size="26" horizontalCenter="0.5" x="20"/>
+	<e:Group y="734" horizontalCenter="0.5" id="groupHead" width="363" height="93" x="20">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" gap="30"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group_fist" height="500" width="750" x="375" y="360" anchorOffsetX="375" anchorOffsetY="252">
+	</e:Group>
+	<e:Image source="zfdy_16" y="390" anchorOffsetX="43" x="207" anchorOffsetY="43" id="img_star1"/>
+	<e:Image source="zfdy_16" y="328" anchorOffsetX="43" x="611" anchorOffsetY="43" id="img_star0"/>
+	<e:Image id="img_star11" y="406" anchorOffsetX="52" width="252" anchorOffsetY="102" height="156" x="266" source="zc_11_2"/>
+	<e:Image id="img_star12" source="zc_11_2" y="276" anchorOffsetX="43" width="204" anchorOffsetY="80" height="122" x="262"/>
+	<e:Image id="img_star13" source="zc_11_2" y="346" anchorOffsetY="80" anchorOffsetX="43" width="204" height="122" x="521"/>
+	<e:Image id="img_star14" source="zc_11_2" y="296" anchorOffsetX="27" width="128" anchorOffsetY="52" height="78" x="144"/>
+	<e:Image id="img_star15" source="zc_11_2" y="445" anchorOffsetY="52" anchorOffsetX="27" width="128" height="78" x="432"/>
+</e:Skin>

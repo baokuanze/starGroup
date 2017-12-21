@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GroupManagerPushImage1Skin" width="133" height="133"
+        xmlns:e="http://ns.egret.com/eui">
+	<e:Rect width="133" y="0" height="133" fillColor="0xFFFFFF" x="0"/>
+	<e:Image source="gm_add" y="0" x="0" id="btn_add"/>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Zfdy5Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect right="0" bottom="0" left="0" top="0" fillAlpha="0"/>
+	<e:Image horizontalCenter="0" width="748" y="593" source="zfdy_back" id="bmpTextBack"/>
+	<e:Label horizontalCenter="0" y="621" text="高圆圆粉丝群高圆圆粉丝群噶 送给高圆圆遮风挡雨" fontFamily="黑体" size="26" id="lblText"/>
+	<e:Image id="bmpIcon2" source="zfdy_15" x="0" y="173"/>
+	<e:Image id="bmpIcon3" source="zfdy_15" y="173" x="750" scaleX="-1"/>
+	<e:Image y="432" id="bmpIcon1" anchorOffsetX="226" anchorOffsetY="196" x="375" source="zfdy_14"/>
+	<e:Group horizontalCenter="0" y="687" width="363" height="93" id="groupHead">
+		<e:layout>
+			<e:HorizontalLayout gap="30" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="img1" source="zfdy_16" x="114" y="296" anchorOffsetX="43" anchorOffsetY="43"/>
+	<e:Image id="img2" source="zfdy_16" anchorOffsetX="43" y="300" anchorOffsetY="43" x="268"/>
+	<e:Image id="img3" source="zfdy_16" anchorOffsetX="43" y="300" anchorOffsetY="43" x="498"/>
+	<e:Image id="img4" source="zfdy_16" anchorOffsetX="43" y="279" anchorOffsetY="43" x="620"/>
+	<e:Image id="img5" source="zfdy_16" anchorOffsetX="43" y="390" anchorOffsetY="43" x="56"/>
+	<e:Image id="img6" source="zfdy_16" anchorOffsetX="43" y="416" anchorOffsetY="43" x="300"/>
+	<e:Image id="img7" source="zfdy_16" anchorOffsetX="43" y="441" anchorOffsetY="43" x="517"/>
+	<e:Image id="img8" source="zfdy_16" anchorOffsetX="43" y="499" anchorOffsetY="43" x="682"/>
+</e:Skin>

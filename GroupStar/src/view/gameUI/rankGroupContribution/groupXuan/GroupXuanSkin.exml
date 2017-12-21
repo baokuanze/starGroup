@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GroupXuanSkin" width="750" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="u_xunGroup" x="0" y="0"/>
+	<e:Image id="img_join" source="u_join" x="627" y="26"/>
+	<e:Label id="lable_groupName" y="30" size="32" x="84" textColor="0xFDFE02" fontFamily="黑体" touchEnabled="false"/>
+	<e:Image id="img_groupIcon" height="36" width="36" x="30" y="28" touchEnabled="false"/>
+	<e:Rect height="36" width="36" x="30" y="28" fillAlpha="0" strokeWeight="2" strokeColor="0xFDFE02" touchEnabled="false"/>
+	<e:Label id="lable_title" y="88" x="30" size="26" fontFamily="黑体" maxWidth="700" touchEnabled="false" maxHeight="52" width="696"/>
+	<e:Rect id="rect_join" width="750" height="160" y="0" x="0" fillAlpha="0"/>
+</e:Skin>

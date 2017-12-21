@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MBarrageUISkin" width="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="scroll1" width="750" height="180" x="0" y="0">
+		<e:Group id="groupData">
+		</e:Group>
+	</e:Scroller>
+	<e:Rect id="btn_Tip" height="30" width="522" x="0" y="220" fillAlpha="0"/>
+	<e:Label id="lblTip1" y="221" fontFamily="黑体" size="30" x="21" textColor="0x000000" touchEnabled="false"/>
+	<e:Label id="lblTip" x="20" y="220" size="30" fontFamily="黑体" textColor="0xFFE71E" touchEnabled="false"/>
+	<e:Label id="lblTip1_1" touchEnabled="false" y="221" textColor="0x000000" fontFamily="黑体" x="21" size="30"/>
+	<e:Label id="lblTip_1" touchEnabled="false" y="220" textColor="0xFFE71E" fontFamily="黑体" size="30" x="20"/>
+	<e:Group id="groupTip" height="30" width="200" x="311" y="220">
+		<e:Image id="bmpTip" x="0" verticalCenter="0" source="zfdy_font3"/>
+	</e:Group>
+</e:Skin>

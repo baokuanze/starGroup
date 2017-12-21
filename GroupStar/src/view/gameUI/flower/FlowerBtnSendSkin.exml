@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FlowerBtnSendSkin" states="up,down,disabled" width="160" height="80"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rectBack" left="0" right="0" top="0" bottom="0" fillColor="0xA0A2A3"/>
+	<e:Label text="赠送" y="26" horizontalCenter="0" fontFamily="黑体" size="26"/>
+</e:Skin>

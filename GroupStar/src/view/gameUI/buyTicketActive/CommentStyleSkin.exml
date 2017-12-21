@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CommentStyleSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="750">
+	<e:Rect id="rect_bg" fillColor="0xFFFFFF" left="0" right="0" top="0" bottom="0" touchEnabled="false"/>
+	<e:Rect id="btn_prise" height="61" width="105" x="623" y="17" fillAlpha="0"/>
+	<e:Image id="img_paiseIcon" width="76" y="25" height="76" x="25" touchEnabled="false"/>
+	<e:Image source="p1_yuan" y="25" x="25" id="img_button" touchEnabled="false"/>
+	<e:Label id="lb_userName" y="35" fontFamily="黑体" textColor="0x6E6E6E" x="120" touchEnabled="false"/>
+	<e:Label id="lb_pushTime" y="77" fontFamily="黑体" size="22" textColor="0xA4A4A4" x="120" touchEnabled="false"/>
+	<e:Label id="lb_common" x="120" y="118" width="604" maxWidth="590" fontFamily="黑体" lineSpacing="5" textColor="0x2A2A2A" touchEnabled="false"/>
+	<e:Image id="img_priseLigh" width="36" y="28" height="36" x="691" source="p1_parseLiang" touchEnabled="false" visible="false"/>
+	<e:Image id="img_priseAn" height="35" width="35" x="691" y="29" source="p1_parseAn" touchEnabled="false"/>
+	<e:Rect id="rect_line" height="1" width="604" x="120" y="302" touchEnabled="false" fillColor="0xEEEFF0"/>
+	<e:Label id="lb_priseNumber" text="0" y="40" fontFamily="黑体" right="69" size="24" textColor="0x989899" touchEnabled="false"/>
+</e:Skin>

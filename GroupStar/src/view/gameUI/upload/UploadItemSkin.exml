@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="UploadItemSkin" width="224" height="358" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0xFFFFFF" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="bmpBack" y="1" x="1" touchEnabled="true"/>
+	<e:Rect height="90" fillAlpha="0.2" width="224" x="0" bottom="0"/>
+	<e:Label id="lblName" text="萤火虫小粉" x="56" y="279" fontFamily="黑体" size="26" touchEnabled="false" textColor="0xFFFFFF"/>
+	<e:Label id="lblHot" x="12" y="316" fontFamily="黑体" size="30" textColor="0xFFFFFF"/>
+	<e:Image id="btnSend" source="p_toupiao" x="148" y="319" scaleX=".9" scaleY=".9"/>
+</e:Skin>

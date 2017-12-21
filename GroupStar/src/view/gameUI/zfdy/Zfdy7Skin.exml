@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Zfdy7Skin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_twoDog" source="zc7_1" y="400" anchorOffsetX="313" anchorOffsetY="263" x="374"/>
+	<e:Image id="img_light" source="zc7_2" y="400" anchorOffsetX="313" anchorOffsetY="263" horizontalCenter="312"/>
+	<e:ProgressBar id="probar" y="144" skinName="Zfdy71Skin" horizontalCenter="0" direction="ltr" value="0" touchChildren="false" touchEnabled="false"/>
+	<e:Image source="zfdy_back" width="748" y="601" horizontalCenter="0" id="bmpTextBack" x="10"/>
+	<e:Label y="629" horizontalCenter="0.5" text="高圆圆粉丝群高圆圆粉丝群噶 送给高圆圆遮风挡雨" fontFamily="黑体" size="26" id="lblText" x="10"/>
+	<e:Group y="695" horizontalCenter="0.5" width="363" height="93" id="groupHead" x="10">
+		<e:layout>
+			<e:HorizontalLayout gap="30" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

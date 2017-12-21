@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StarPageUISkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF" touchEnabled="false"/>
+	<e:Label id="lbl1" text="欢迎来到超级粉丝团" y="45" horizontalCenter="0" fontFamily="黑体" touchEnabled="false" size="42" textColor="0x14B8F6"/>
+	<e:Label id="lbl2" text="请指定本群入驻的明星" y="107" size="28" horizontalCenter="0" fontFamily="黑体" textColor="0x95B9C6" touchEnabled="false"/>
+	<e:Scroller id="scroll1" width="750" height="854" x="0" y="160">
+		<e:Group id="groupData">
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="btnSerach" x="656" y="28" source="n_cjmx6"/>
+</e:Skin>

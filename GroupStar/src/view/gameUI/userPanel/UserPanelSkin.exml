@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="UserPanelSkin" width="726" height="960" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bmpBack" width="726" height="281" y="0" scaleX="1" scaleY="1" horizontalCenter="0" source="u_di"/>
+	<e:Rect height="690" width="726" x="0" y="270" fillColor="0xFFFFFF"/>
+	<e:Group id="groupTop" height="270" width="726" x="0" y="0">
+		<e:Label id="lblName" y="45" fontFamily="黑体" size="30" x="217" textAlign="left"/>
+		<e:Group id="groupLevel" height="40" width="106" x="407" y="39">
+			<e:Image id="sex" x="0" y="6" height="30" source="p_nan"/>
+			<e:Image id="bmpTitleBack0" y="5" source="p_barrage_icon1" x="39"/>
+			<e:Label y="10" text="10" fontFamily="黑体" id="lblIntimate_Title0" size="22" x="77"/>
+		</e:Group>
+		<e:Group height="29" width="439" y="213" x="217">
+			<e:Label id="lblPay" text="本月送出" x="266" y="8" size="28" fontFamily="黑体" textColor="0xE2E2E2"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="bottom"/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="lblGroupName" y="158" fontFamily="黑体" x="217" size="28" touchEnabled="false" textAlign="center" height="27" text="所属群" textColor="0xE2E2E2"/>
+		<e:Image source="p_honghua" x="222" y="101"/>
+		<e:Label id="lblHonghua" x="263" y="101" size="28" fontFamily="黑体"/>
+		<e:Rect id="btnJoin" height="29" width="479" x="212" y="158" fillAlpha="0"/>
+		<e:Group id="groupStar" height="35" x="324" y="96">
+			<e:Image source="u_zhuan" x="875" y="484"/>
+			<e:Label id="lblstar" x="28" y="2" size="28" fontFamily="黑体" textColor="0xF4EA1A" verticalAlign="middle" height="38"/>
+			<e:Image id="btnCz" source="u_chongZhi" x="0" y="0"/>
+			<e:layout>
+				<e:HorizontalLayout gap="12" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:Rect height="41" width="726" x="0" ellipseHeight="20" ellipseWidth="20" fillColor="0xFFFFFF" bottom="1"/>
+	<e:Group height="160" width="726" x="0" y="270">
+		<e:Label id="lbl2" text="亲密度等级" x="30" y="28" size="24" fontFamily="黑体" textColor="0x787878" visible="false"/>
+		<e:Rect height="1" width="660" y="159" horizontalCenter="0" fillColor="0xE3E3E3"/>
+		<e:Group id="group_m1" x="90" y="30">
+			<e:Image id="img_medal1_bright" source="u_medal1_bright" x="0" y="0" visible="false"/>
+			<e:Image id="img_medal1_dark" source="u_medal1_dark" x="0" y="0"/>
+		</e:Group>
+		<e:Group id="group_m3" x="514" y="26">
+			<e:Image id="img_medal3_bright" source="u_medal2_bright" x="0" y="0" visible="false"/>
+			<e:Image id="img_medal3_dark" source="u_medal2_dark" x="0" y="-1"/>
+		</e:Group>
+		<e:Group id="group_m2" x="282" y="31">
+			<e:Image id="img_medal2_bright" source="u_medal3_bright" x="0" y="0" visible="false"/>
+			<e:Image id="img_medal2_dark" source="u_medal3_dark" x="0" y="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_goToMore" height="240" width="726" x="0" y="430">
+		<e:Label id="lbl3" y="26" fontFamily="黑体" size="24" x="30" textColor="0x787878"/>
+		<e:Label id="lable_noWorks" textColor="0x787878" text="当前没有点亮的作品哦！" fontFamily="黑体" size="24" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Group id="groupData" height="164" width="640" y="57" x="35">
+		</e:Group>
+		<e:Rect width="660" height="1" horizontalCenter="0" fillColor="0xE3E3E3" x="10" y="239"/>
+		<e:Image height="20" width="20" x="683" y="129" source="task_fu"/>
+	</e:Group>
+	<e:Group id="groupPaise" height="200" width="726" x="0" y="670"/>
+	<e:Group id="groupTip1" height="30" width="356" y="873" horizontalCenter="0">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0"/>
+		<e:Label id="lblTip" y="3" text="点击访问部落“超级粉丝团”" fontFamily="黑体" size="26" horizontalCenter="0" touchEnabled="false" textColor="0x3FD5E3"/>
+		<e:Rect width="330" height="1" x="10" bottom="0" fillColor="0x3FD5E3"/>
+	</e:Group>
+	<e:Group id="group_medal1" height="960" width="726" x="0" y="0" visible="false">
+		<e:Image source="u_medal1" x="0" y="0"/>
+		<e:Image source="u_sign" x="101" y="530" touchEnabled="false"/>
+		<e:Label id="lable_sign" text="每日签到额外增加5钻" y="538" fontFamily="黑体" x="163" touchEnabled="false"/>
+		<e:Image source="u_discount" x="101" y="602" touchEnabled="false"/>
+		<e:Label id="lable_discount" text="购买钻石享受8折" y="612" fontFamily="黑体" x="163" touchEnabled="false"/>
+		<e:Label id="lable_wealfe" text="主页头像昵称加信仰守护图标" x="163" y="680" fontFamily="黑体" touchEnabled="false"/>
+		<e:Label id="lable_Alreadylit" text="已点亮" y="827" fontFamily="黑体" textColor="0xFDFE02" size="36" horizontalCenter="0" visible="false"/>
+		<e:Group id="group_medul1Light" y="787" horizontalCenter="0" visible="false">
+			<e:Rect id="rect_Light1" height="80" width="365" y="0" horizontalCenter="0" fillColor="0xFFFFFF" ellipseWidth="30" ellipseHeight="30"/>
+			<e:Label id="lable_myDian" text="我要点亮" touchEnabled="false" textColor="0xFF0000" fontFamily="黑体" y="22" size="36" horizontalCenter="0.5"/>
+		</e:Group>
+		<e:Label id="lable_day" text="(30天/99钻)" y="887" fontFamily="黑体" horizontalCenter="0" visible="false"/>
+		<e:Image source="u_user_tou" x="101" y="672"/>
+	</e:Group>
+	<e:Group id="group_medal2" x="0" width="726" y="0" height="960" visible="false">
+		<e:Image source="u_medal3" x="0" y="0"/>
+		<e:Image source="u_medal" x="101" y="530"/>
+		<e:Label id="lable_shouhu" text="主页头像昵称加天使守护图标" y="538" fontFamily="黑体" x="163"/>
+		<e:Image source="u_Cheer" x="101" y="602"/>
+		<e:Label id="lable_zhuwei" text="增加作品掉率，助威+9热度" x="163" y="612" fontFamily="黑体"/>
+		<e:Image source="u_welfare" x="101" y="671"/>
+		<e:Label id="lable_fuli" text="购买钻石时，额外赠送30%的钻石" y="680" x="163" fontFamily="黑体"/>
+		<e:Label id="lable_medal2Light" text="已点亮" y="821" fontFamily="黑体" textColor="0xFDFE02" size="36" horizontalCenter="0" visible="false"/>
+		<e:Label id="lable_medal2Day" y="881" text="剩余" fontFamily="黑体" textAlign="center" textColor="0xFFFFFF" horizontalCenter="0" visible="false"/>
+		<e:Group id="group_medul2Light" x="93" y="787" height="150" visible="false">
+			<e:Rect id="rect_3day" height="80" width="245" x="0" y="0" fillColor="0xFFFFFF" ellipseHeight="30" ellipseWidth="30"/>
+			<e:Rect id="rect_9day" height="80" width="245" x="299" y="0" ellipseHeight="30" ellipseWidth="30" fillColor="0xFFFFFF"/>
+			<e:Label id="lable_3day" text="30天" y="23" textColor="0xDC37D9" fontFamily="黑体" x="83" touchEnabled="false" size="36"/>
+			<e:Label id="lable_9day" text="90天" x="394" y="21" textColor="0xDC37D9" fontFamily="黑体" touchEnabled="false" size="36"/>
+			<e:Label id="lable_3yuan" text="（30元）" x="66" y="103" fontFamily="黑体"/>
+			<e:Label id="lable_9yuan" text="（80元）" x="368" y="101" fontFamily="黑体"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="group_medal3" x="0" width="726" y="0" height="960" visible="false">
+		<e:Image source="u_medal2" x="0" y="0" touchEnabled="false"/>
+		<e:Image height="48" width="48" x="51" y="538" source="u_welfare" touchEnabled="false"/>
+		<e:Image height="48" width="48" x="51" y="610" source="u_Cheer" touchEnabled="false"/>
+		<e:Image height="48" width="48" x="51" y="679" source="u_medal" touchEnabled="false"/>
+		<e:Label id="lable_medal3Wealf" text="本群成员每人每天可购买一次真爱礼包，内含30钻" x="113" y="546" fontFamily="黑体" size="26" touchEnabled="false"/>
+		<e:Label id="lable_medal3ZhuWei" text="可在应用内发起宣群，吸引粉丝加群" x="113" y="620" fontFamily="黑体" size="26" touchEnabled="false"/>
+		<e:Label id="lable_medal3shouHu" text="应用内头像，昵称加繁星守护勋章" x="113" y="688" fontFamily="黑体" size="26" touchEnabled="false"/>
+		<e:Group id="group_isOner" height="210" y="745" horizontalCenter="0" touchEnabled="false" width="366" visible="false">
+			<e:Rect id="rect_medl3myLight" height="80" y="0" fillColor="0xFFFFFF" ellipseHeight="30" ellipseWidth="30" width="366" horizontalCenter="0"/>
+			<e:Label id="lable_medal3myLight" text="我要点亮(30天)" y="24" fontFamily="黑体" textAlign="center" horizontalCenter="0" touchEnabled="false" textColor="0x0000FF" size="36"/>
+			<e:Label id="lable_getIntegral" y="100" size="30" fontFamily="黑体" touchEnabled="false" horizontalCenter="0" textColor="0xFDFE02"/>
+			<e:Label id="lable_groupShare" y="148" text="群主专享QQ群：201758241" size="24" fontFamily="黑体" touchEnabled="false" horizontalCenter="0"/>
+			<e:Rect height="1" width="110" x="210" y="170" fillColor="0xFFFFFF"/>
+			<e:Rect id="rect_join" x="46" width="268" y="140" height="50" fillColor="0x999999" fillAlpha="0"/>
+		</e:Group>
+		<e:Group id="group_isNotOner" y="745" x="191" width="344" height="210" visible="false">
+			<e:Rect id="rect_callOner" height="86" width="296" y="78" ellipseHeight="30" ellipseWidth="30" fillColor="0xFFFFFF" horizontalCenter="0" visible="false"/>
+			<e:Label id="lable_callOner" y="107" fontFamily="黑体" horizontalCenter="0" touchEnabled="false" size="30" textColor="0xFFFFFF"/>
+			<e:Label id="lable_needOnerLight" text="*需要群主点亮*" y="45" horizontalCenter="0" textAlign="center" fontFamily="黑体" size="36" touchEnabled="false" textColor="0xFDFE02"/>
+		</e:Group>
+	</e:Group>
+	<e:Image x="675" y="29" source="p_x" touchEnabled="false"/>
+	<e:Rect id="btnClose" height="65" width="70" x="652" y="9" fillAlpha="0"/>
+	<e:Group id="group_notice" width="726" x="0" height="960" y="0" visible="false">
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Rect fillColor="0xFFFFFF" ellipseWidth="20" height="250" ellipseHeight="20" width="575" y="8" x="0"/>
+			<e:Label y="37" textColor="0x000000" fontFamily="黑体" horizontalCenter="0.5" size="36" id="lblTitle" x="10"/>
+			<e:Label y="101" textColor="0x000000" fontFamily="黑体" horizontalCenter="0.5" size="27" id="lblDesc" x="10"/>
+			<e:Rect width="565" y="163" fillAlpha="0.5" fillColor="0xD7D7DA" strokeAlpha="1" height="1" x="6"/>
+			<e:Rect fillColor="0xD7D7DA" y="163" width="1" horizontalCenter="0" height="95" fillAlpha="0.5" x="10"/>
+			<e:Rect width="278" y="167" id="btn1" fillColor="0xFFFFFF" height="89" x="3"/>
+			<e:Rect width="278" id="btn2" bottom="5" fillColor="0xFFFFFF" height="88" x="296" y="10"/>
+			<e:Label y="196" textColor="0x08A8E1" fontFamily="黑体" id="lbl1" touchEnabled="false" x="114"/>
+			<e:Label y="196" textColor="0x08A8E1" fontFamily="黑体" id="lbl0" touchEnabled="false" x="404"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

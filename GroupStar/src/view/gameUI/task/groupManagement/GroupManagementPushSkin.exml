@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GroupManagementPushSkin" width="750" height="1000" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="lable_taskTitle" text="任务标题" x="47" y="30" size="30" textColor="0x333333" fontFamily="黑体"/>
+	<e:Rect height="73" width="656" x="47" y="77" fillColor="0xFFFFFF" strokeColor="0x666666" strokeWeight="1"/>
+	<e:Label id="lable_taskDirections" y="199" textColor="0x333333" text="任务说明与攻略" fontFamily="黑体" x="47" size="30"/>
+	<e:Rect y="246" fillColor="0xFFFFFF" width="656" strokeColor="0x666666" height="73" strokeWeight="1" x="47"/>
+	<e:Label id="lable_taskLink" y="517" textColor="0x333333" text="任务链接" fontFamily="黑体" x="47" size="30"/>
+	<e:Rect y="564" fillColor="0xFFFFFF" width="656" strokeColor="0x666666" height="73" strokeWeight="1" x="47"/>
+	<e:Label id="lable_taskScreenshot" y="696" textColor="0x333333" text="群员必须截图上交" fontFamily="黑体" size="30" x="47"/>
+	<e:Image id="img_close" source="gm_close" x="569" y="696"/>
+	<e:Image id="img_open" source="gm_open" x="569" y="696" visible="false"/>
+	<e:Rect id="btn_push" height="75" width="279" y="790" fillColor="0x13B7F6" ellipseHeight="10" ellipseWidth="10" horizontalCenter="0.5"/>
+	<e:Label id="lable_push" text="发布" y="813" fontFamily="黑体" horizontalCenter="0" touchEnabled="false"/>
+	<e:EditableText id="text_title" width="602" height="34" text="如:部落签到" y="98" textColor="0x999999" horizontalCenter="-4" size="26" fontFamily="黑体" maxChars="20"/>
+	<e:EditableText id="text_taskDirections" width="602" height="34" text="如何做任务的说明和指引" x="70" y="268" textColor="0x999999" size="26" fontFamily="黑体" maxChars="300"/>
+	<e:EditableText id="text_taskLink" width="602" height="34" x="70" y="586" textColor="0x999999" fontFamily="黑体" size="26" text="请输入任务链接"/>
+	<e:Label id="lable_warmTitle" text="*标题不能为空" x="190" y="34" size="22" fontFamily="黑体" textColor="0xFF0000" visible="false"/>
+	<e:Label id="lable_warmLink" y="522" textColor="0xFF0000" text="*链接不能为空" fontFamily="黑体" size="22" x="186" visible="false"/>
+	<e:Group id="group_addToImg" height="133" x="46" y="338">
+		<e:layout>
+			<e:HorizontalLayout gap="42"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

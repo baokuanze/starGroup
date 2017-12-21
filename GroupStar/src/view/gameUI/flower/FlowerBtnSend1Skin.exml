@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FlowerBtnSend1Skin" states="up,down,disabled"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="191" height="190">
+	<e:Group width="191" x="0" height="190" y="0" scaleX.down=".95" scaleY.down=".95" x.down="5" y.down="5">
+		<e:Image x="0" y="0" source="p_btnlianji"/>
+		<e:Label text="连发" y="71" fontFamily="黑体" size="32" horizontalCenter="0"/>
+		<e:Label id="labelDisplay" y="122" horizontalCenter="0.5" fontFamily="黑体"/>
+	</e:Group>
+</e:Skin>

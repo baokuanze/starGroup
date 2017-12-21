@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FlowerItemSkin" width="250" height="205" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="bmpBack" left="0" right="0" top="0" bottom="0" fillColor="0x625C5C" fillAlpha="1" touchEnabled="false"/>
+	<e:Image id="bmpIcon" y="13" horizontalCenter="0" touchEnabled="false"/>
+	<e:Label id="lblIntimate" y="170" size="22" fontFamily="黑体" horizontalCenter="0.5" textColor="0xFFE71E" touchEnabled="false"/>
+	<e:Image id="bmpLian" x="200" y="14" source="p_lianji" touchEnabled="false"/>
+	<e:Label id="lblTime" text="今日已送完" y="135" size="22" fontFamily="黑体" horizontalCenter="0" touchEnabled="false"/>
+	<e:Group height="20" width="200" y="135" horizontalCenter="0" touchEnabled="false">
+		<e:Label id="lblStar" y="127" fontFamily="黑体" size="26" height="26" x="4" text="88" touchEnabled="false"/>
+		<e:Image id="bmpStar" x="123" y="127" touchEnabled="false" source="p_zuanshi" scaleY=".5" scaleX=".5"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

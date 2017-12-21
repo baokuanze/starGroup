@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankGroupItem1Skin" width="750" height="234" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0xFFFFFF" fillAlpha="0.1" left="0" right="0" top="0" bottom="0"/>
+	<e:Rect bottom="0" right="0" left="0" height="1" x="10" y="10" fillColor="0xF0E4FC"/>
+	<e:Image source="p_groupbtn1" x="0" y="23"/>
+	<e:Group id="groupData" height="29" width="750" x="0" y="150">
+		<e:Label id="lblName" y="150" text="赵丽颖官方粉丝群1群 LV10" fontFamily="黑体" horizontalCenter="0" touchEnabled="false" textColor="0x000000"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="lblNum" horizontalCenter="0" y="191" size="26" text="成员1000人" fontFamily="黑体" x="10" touchEnabled="false" textColor="0xC498F1"/>
+	<e:Label id="lblRank" y="31" text="NO.1" fontFamily="黑体" size="32" x="20" touchEnabled="false" textColor="0xFFFFFF"/>
+	<e:Image id="bmpBack" y="26" horizontalCenter="0" touchEnabled="false" source="p_no3"/>
+</e:Skin>

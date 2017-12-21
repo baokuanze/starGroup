@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TaskOpenSkin" width="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="160">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xFFFFFF"/>
+	<e:Label id="lblName" textColor="0x000000" text="众筹礼物(进度80%)" fontFamily="黑体" textAlign="left" touchEnabled="false" x="40" verticalCenter="0"/>
+	<e:Image source="task_fu" x="693" verticalCenter="0"/>
+	<e:Rect width="690" fillColor="0xE3E3E3" bottom="0" height="1" horizontalCenter="0"/>
+</e:Skin>

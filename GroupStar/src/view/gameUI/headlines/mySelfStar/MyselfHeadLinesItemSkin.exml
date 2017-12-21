@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MyselfHeadLinesItemSkin" width="510" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="75">
+	<e:Rect id="rect_button" height="75" width="510" y="0" horizontalCenter="0" fillColor="0xFFFFFF" strokeWeight="2" strokeColor="0xB4B4B4" fillAlpha="1"/>
+	<e:Label id="lable_time" text="2016.11.11-10.12" fontFamily="黑体" size="28" horizontalCenter="0" verticalCenter="0" textColor="0x000000"/>
+	<e:Label id="lable_pro" text="往期" x="38" verticalCenter="0.5" size="28" textColor="0x000000" fontFamily="黑体"/>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="userProSkin" width="373" height="23" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="track" ellipseHeight="25" ellipseWidth="25" x="0" height="23" y="0" width="373" fillColor="0xC0C0C0"/>
+	<e:Rect id="thumb" ellipseWidth="25" ellipseHeight="25" x="0" height="23" y="0" fillColor="0x12E03D" width="373"/>
+</e:Skin>

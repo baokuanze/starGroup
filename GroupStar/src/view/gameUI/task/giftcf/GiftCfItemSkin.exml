@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GiftCfItemSkin" width="350" height="125" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xF8F8F8"/>
+	<e:Image id="bmpIcon" height="80" width="80" x="15" y="29" touchEnabled="false"/>
+	<e:Image id="bmpIconBack" source="t_zc2" x="0" y="6" touchEnabled="false"/>
+	<e:Label id="lblName" text="赵丽颖的小粉丝" x="113" y="34" textColor="0x333333" size="24" fontFamily="黑体" touchEnabled="false"/>
+	<e:Label id="lblDesc" text="支持999钻石" x="113" y="70" size="22" fontFamily="黑体" textColor="0x666666" touchEnabled="false"/>
+</e:Skin>

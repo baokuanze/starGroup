@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GroupManagementAuditItemInformationItemSkin" width="750" height="188"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="img_icon" height="112" width="112" x="20" y="38"/>
+	<e:Image source="gm_yuan" x="20" verticalCenter="0"/>
+	<e:Rect height="2" width="730" x="20" y="0" fillColor="0x999999"/>
+	<e:Rect height="2" width="730" x="20" y="186" fillColor="0x999999"/>
+	<e:Label id="lable_name" text="XXXX人" y="37" x="173" fontFamily="黑体" textColor="0x333333"/>
+	<e:Label id="lable_count" y="86" text="累计完成此时" fontFamily="黑体" x="173" size="26" textColor="0x13B7F6"/>
+	<e:Label id="lable_getCount" y="133" text="获得10次" fontFamily="黑体" x="229" textColor="0x666666"/>
+	<e:Image source="gm_redFlower" x="173" y="127"/>
+	<e:Rect id="btn_rewordRedFlower" height="42" width="116" x="381" y="125" fillColor="0x6EBDE4" ellipseHeight="10" ellipseWidth="10"/>
+	<e:Label id="lable_getRedFlower" text="奖励小红花" y="135" size="22" touchEnabled="false" horizontalCenter="64"/>
+	<e:Image id="img_cutPc" height="143" width="89" x="638" y="21"/>
+</e:Skin>

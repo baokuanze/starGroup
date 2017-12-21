@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TaskGroupXuanSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="750" height="1334" y="1" x="-1" fillColor="0xFFFFFF"/>
+	<e:Image source="p_btnback1" y="30" x="30" id="btn_back"/>
+	<e:Label id="lable_call" text="宣群口号(30字)" x="30" y="158" textColor="0x000000" fontFamily="黑体"/>
+	<e:Rect height="157" width="685" x="30" y="202" fillColor="0xFFFFFF" strokeColor="0x999999" strokeWeight="1"/>
+	<e:EditableText id="Edit_xuanGroupDes" width="646" height="128" x="50" y="218" textColor="0x999999" fontFamily="黑体" text="限制长度30字以内" maxChars="30" maxWidth="700" multiline="true"/>
+	<e:Rect id="rect_pushXuanGroup" height="75" width="345" y="409" horizontalCenter="0.5" ellipseHeight="30" ellipseWidth="30" fillColor="0x13B7F6"/>
+	<e:Label id="lable_pushXuanGroup" text="发布（50钻）" y="432" horizontalCenter="0" fontFamily="黑体" touchEnabled="false"/>
+	<e:Label id="lable_xuanGroupTitle" text="宣群发布一次将在群排行置顶显示3小时，具体显示效果如下：" y="543" x="30" fontFamily="黑体" textColor="0x13B7F6" maxWidth="700"/>
+	<e:Image source="u_xuanqunFB" y="646" horizontalCenter="0.5"/>
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="NewWeekPushContributionItemSkin" width="750" height="142"
+        xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="rect_joinIn" width="750" height="142" y="0" x="0" fillColor="0xFFFFFF"/>
+	<e:Image source="fistpage_dirc" y="59" x="709" touchEnabled="false"/>
+	<e:Image id="img_icon" height="100" width="100" x="30" y="21" touchEnabled="false"/>
+	<e:Image id="img_iconUp" height="100" width="100" x="30" y="21" touchEnabled="false"/>
+	<e:Image id="img_number" width="42" y="63" height="42" x="9" touchEnabled="false"/>
+	<e:Label id="lable_rankNumber" y="69" textColor="0xFFFFFF" verticalAlign="bottom" fontFamily="黑体" textAlign="center" width="48" size="26" height="30" x="5" touchEnabled="false"/>
+	<e:Label id="lable_groupName" y="37" x="159" fontFamily="黑体" textColor="0x000000" touchEnabled="false"/>
+	<e:Label id="lable_groupContribution" y="87" x="159" size="26" textColor="0x5D5D5D" fontFamily="黑体" touchEnabled="false"/>
+	<e:Label id="lable_btnJoinIn" text="加入" x="642" y="55" textColor="0x14B8F6" size="26" fontFamily="黑体" touchEnabled="false"/>
+</e:Skin>
